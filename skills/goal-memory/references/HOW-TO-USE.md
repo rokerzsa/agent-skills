@@ -14,6 +14,18 @@ The human sets intent, priorities and decision authority. The agent investigates
 
 Use indexed OKF memory to connect knowledge, decisions, goals and evidence. Seek sources and actual verification, consider whether information is current, and preserve decision history so both people and agents can navigate and assess it. See the [local OKF profile](SPEC.md) for the rules and the upstream specification.
 
+## Work modes
+
+Manual is the default, including when a resumed goal has no clear mode or authorization. The agent investigates, asks focused questions and offers each phase for human review by default, honoring existing instructions to proceed. Auto requires explicit user authorization for the goal and scope; an active goal or unattended harness alone is insufficient. Announce the mode at start, resume and switch. A direct user request to switch is approval; a proposed switch needs explicit approval. Record the mode and authorization in the goal, and link them from active state. Keep mode separate from goal status.
+
+Before Auto starts, establish the goal's success criteria, delegated decisions, permitted actions, stop conditions and review fallback. Reuse existing authorization and ask only about material gaps. Record these and the approval. On a switch to Manual, stop new dispatches and interrupt in-flight work where supported. Preserve partial results, checkpoint and report findings, pending decisions and any work that could not be stopped immediately. Record each switch and its checkpoint. A pause for user direction does not itself change mode.
+
+In Auto, when the harness permits, the orchestrator creates a separate reviewer subagent and assigns implementation to a worker subagent. Give the reviewer the goal, authority, phase plan, evidence and applicable confirmed working patterns. Before implementation, the reviewer challenges the plan and asks focused questions; resolve material findings within delegated authority. After the worker implements the agreed slice, the reviewer inspects the relevant files or diff and actual verification results, questions the worker and requests corrections. Relay questions and answers through the orchestrator if direct communication is unavailable.
+
+Repeat review after revisions; decide whether to advance within delegated authority and record findings, evidence and the decision in the phase record. Check success and stop conditions before each slice and after review; continue until success or a stop condition. Attribute agent decisions and review to the agents, never to the human. If a consequential decision exceeds authority or lacks sufficient evidence, record it and the uncertainty, and pause affected work while continuing independent authorized work.
+
+If a worker subagent is unavailable or disallowed, record the limitation and let the orchestrator implement within its authority. If a separate reviewer is unavailable or disallowed, record the limitation and use self-review only if authorized; otherwise pause for human direction. Identify any self-review in the record. Follow harness and user constraints on delegation.
+
 ## Discuss and adapt
 
 Act as a design partner. Start from the request, relevant files and settled decisions. Before asking, identify what the answer would change about the outcome, scope, design or checks. Resolve factual questions by inspecting the project. Ask the user about unresolved intent, constraints or trade-offs that need their judgment.
@@ -34,7 +46,7 @@ For a substantial goal, create a separate numbered phase concept when preparing 
 
 For example, an Agent and API goal can have one phase for each side and a later integration phase. The integration record links the two dependencies and states what was actually verified together. Phase progress is separate from OKF knowledge status.
 
-Carry out the authorized slice, then explain the change, files, actual checks and limitations. Show the diff or a scenario if helpful. Respond to review questions, revise if requested, and document important understanding. By default wait for review before the next slice; honor explicit authorization to proceed across slices. Commit only on instruction or an explicitly authorized alternative policy. Record implementation, verification, review, approval and commit independently and truthfully.
+Carry out the authorized slice, then explain the change, files, actual checks and limitations. Show the diff or a scenario if helpful. Respond to review questions, revise if requested, and document important understanding. In Manual, offer human review before the next slice by default and honor existing authorization to proceed. In Auto, complete the plan and result reviews described above before advancing. Commit only on instruction or an explicitly authorized alternative policy. Record implementation, verification, review, approval and commit independently and truthfully.
 
 If a material assumption fails, inspect evidence and its effect. Decide within explicit delegated authority; otherwise pause affected work and discuss a recommendation. Continue independent authorized work where possible. When switching goals, checkpoint current state and next action.
 
@@ -42,7 +54,7 @@ If a material assumption fails, inspect evidence and its effect. Decide within e
 
 At meaningful checkpoints and before handoff, consider the available conversation, decisions, reviews and work for durable patterns in how the human answers, which questions help, and how the team plans, implements and reviews. Record an explicitly stated enduring preference as confirmed with its stated scope. Keep instructions limited to a task or phase in that work's record; do not generalize them into durable preferences. Record an inferred pattern as provisional only when it recurs in comparable situations, with brief evidence and context. Ask for confirmation before treating it as binding. Do not invent evidence or inspect unavailable history. Update the pattern register and log material additions or corrections; preserve a concise amendment when a confirmed pattern changes. Continue observing a mature profile, but change it only when new evidence or a correction warrants it.
 
-Read applicable confirmed patterns when planning, questioning and reviewing. Determine the current mode from the user's instructions, available harness state and working agreement; an active goal alone does not authorize unattended decisions or bypass review. In an explicitly authorized unattended run, use patterns to frame the questions the human typically asks, investigate answers using available evidence, and choose within delegated authority. Implement, verify, review and checkpoint each slice, then continue within that authorization. Record the rationale, evidence and agent review; never describe it as human approval. If a consequential choice exceeds delegated authority or lacks evidence, record it as open and pause affected work while continuing independent authorized work. Current instructions and the working agreement take precedence over inferred preferences.
+Read applicable confirmed patterns when planning, questioning and reviewing. In Auto, use them to frame the questions the human typically asks, investigate answers using available evidence, and choose within delegated authority. Record rationale and evidence. Current instructions and the working agreement take precedence over inferred preferences.
 
 ## Initialize and recover memory
 
@@ -56,7 +68,7 @@ For an existing bundle, preserve existing files and links. Continue an existing 
 
 For work across repositories, keep the shared goal, phases, decisions and indexes in the primary project's memory temp/. Record the participating repository locations and responsibilities in the goal, and identify affected repositories in each phase. Check existing memory in participating projects for relevant agreements before proceeding; preserve and link to it without silently copying private content. If the primary project is unclear, ask the human. Apply ignore and tracked-file checks to the repository containing the shared bundle.
 
-At restart, read the index, agreement, active state, patterns and relevant linked documents. Check the detailed checkpoint and current evidence before resuming. Reconcile stale summaries from the detailed record. Existing project reference copies are snapshots; propose a migration and preserve local agreements rather than overwriting them automatically.
+At restart, read the root index, agreement, active state and patterns. Follow active state to the goal, its mode and authority, then the current phase and relevant evidence. Check the detailed checkpoint before resuming and reconcile stale summaries from the detailed record. Existing project reference copies are snapshots; propose a migration and preserve local agreements rather than overwriting them automatically.
 
 ## Keep context useful
 

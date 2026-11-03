@@ -13,6 +13,10 @@ last_issued_id: 3
 
 None established yet.
 
+## Work mode
+
+Manual by default. Record the current goal's mode and link to its authorization and scope when applicable.
+
 ## Active, paused and blocked work
 
 Add links to detailed goal checkpoints and blockers when needed.
