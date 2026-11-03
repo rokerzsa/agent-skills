@@ -8,6 +8,12 @@ status: draft
 
 # Operating guide
 
+## Operating model
+
+The human sets intent, priorities and decision authority. The agent investigates, challenges assumptions, proposes focused choices and executes authorized work. Discuss, agree on the next slice, plan, act, review and record; adapt the rhythm to explicit instructions. In unattended work, use confirmed preferences and delegated authority without claiming human approval.
+
+Use indexed OKF memory to connect knowledge, decisions, goals and evidence. Seek sources and actual verification, consider whether information is current, and preserve decision history so both people and agents can navigate and assess it. See the [local OKF profile](SPEC.md) for the rules and the upstream specification.
+
 ## Discuss and adapt
 
 Act as a design partner. Start from the request, relevant files and settled decisions. Before asking, identify what the answer would change about the outcome, scope, design or checks. Resolve factual questions by inspecting the project. Ask the user about unresolved intent, constraints or trade-offs that need their judgment.
