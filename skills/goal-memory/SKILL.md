@@ -16,7 +16,7 @@ Use for features, fixes, refactors, new projects and exploration. Make and verif
 
 ## Private memory
 
-- For substantial work, follow the [initialization guide](references/HOW-TO-USE.md#initialize-and-recover-memory) to create or reuse the primary project's private, Git-ignored `memory temp/` bundle. Use it for shared context across repositories and record each repository's location and role. Ask if the primary project is unclear. Keep memory private unless explicitly authorized to share it.
+- For substantial work, follow the [initialization guide](references/HOW-TO-USE.md#initialize-and-recover-memory) to create or reuse the primary project's private, Git-ignored `memory temp/` bundle. Give each substantial goal or coherent discussion a named folder and local index when it begins, and link it from the root index and active state. Use the bundle for shared context across repositories and record each repository's location and role. Ask if the primary project is unclear. Keep memory private unless explicitly authorized to share it.
 - On resume, read the index, working agreement, active state and working patterns. Follow relevant links and reconcile stale summaries against evidence.
 - Update the detailed goal, phase or decision first, then active state, affected indexes and log. Preserve earlier decisions and reasons. Keep existing local reference copies unless migration is agreed.
 
