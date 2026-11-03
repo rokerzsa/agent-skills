@@ -11,10 +11,12 @@ Ground collaboration in the [operating model](references/HOW-TO-USE.md#operating
 
 ## Workflow
 
+Use Manual mode by default. Switch modes only on explicit user instruction or approval; an active goal alone does not authorize Auto. Before planning, follow the [mode guide](references/HOW-TO-USE.md#work-modes) for authority, switching and Auto review.
+
 1. **Understand.** Read relevant files and memory first. Separate facts, assumptions and proposals. Use the [probing guide](references/HOW-TO-USE.md#discuss-and-adapt) to ask one focused question at a time about a choice that changes the next step. Adapt to answers and record decisions, reasons and open questions as they arise. A request to understand or plan does not authorize implementation.
 2. **Plan.** Map the outcome, phases and dependencies. Keep later phases provisional. Give each independently reviewable phase its own numbered concept when preparing it. Agree on the next phase's scope, approach and checks where needed. Reuse prior authorization.
-3. **Implement and verify.** Identify whether work is interactive or explicitly authorized to run unattended, using available harness state and the working agreement. An active goal alone does not establish unattended authority. Work within the granted scope. When evidence materially changes behavior, architecture, scope or risk, decide within delegated authority or pause affected work for human direction. Continue unaffected authorized work.
-4. **Review and learn.** Explain what changed, why and what the checks showed, including limitations. Apply feedback and update memory. At meaningful checkpoints, use the [learning loop](references/HOW-TO-USE.md#learn-and-apply-working-patterns) to review available conversation and work for durable patterns. Offer each phase for review before the next by default. Continue across phases or commit only when authorized. Record implementation, verification, review, approval and commits separately as they occur.
+3. **Implement and verify.** Work within the granted scope. When evidence materially changes behavior, architecture, scope or risk, decide within delegated authority or pause affected work for human direction. Continue unaffected authorized work.
+4. **Review and learn.** Explain what changed, why and what the checks showed, including limitations. Apply feedback and update memory. At meaningful checkpoints, use the [learning loop](references/HOW-TO-USE.md#learn-and-apply-working-patterns) to review available conversation and work for durable patterns. In Manual, offer each phase for human review by default; in Auto, follow the authorized review loop. Continue across phases or commit only when authorized. Record implementation, verification, review, approval and commits separately as they occur.
 
 ## Private memory
 
