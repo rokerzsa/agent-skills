@@ -8,14 +8,11 @@ status: draft
 
 # Working patterns
 
-Record explicit preferences as confirmed and recurring inferred preferences as provisional, with brief evidence. Confirm observations before treating them as binding. Specific current instructions take precedence. Preserve a concise note when a confirmed pattern changes.
+At meaningful checkpoints, consider available conversation and work for repeated collaboration patterns. Record explicit enduring preferences as confirmed with their scope and recurring inferred preferences as provisional, with brief evidence and context. Keep task-specific instructions in their owning work record. Confirm observations before treating them as binding. Apply relevant confirmed patterns within the working agreement. Specific current instructions take precedence. Keep mature patterns stable until evidence or a correction warrants a change; preserve a concise amendment when confirmed patterns change.
 
 ## Confirmed
 
-- Prefer the simplest correct approach and minimal necessary change.
-- Ask focused questions and use examples when they clarify a choice.
-- Plan the overall goal, then work through small reviewable slices.
-- Preserve consequential decisions, reasons and progress without unnecessary documentation.
+None yet. Add preferences explicitly supplied by the human.
 
 ## Provisional
 

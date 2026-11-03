@@ -28,7 +28,13 @@ For example, an Agent and API goal can have one phase for each side and a later 
 
 Carry out the authorized slice, then explain the change, files, actual checks and limitations. Show the diff or a scenario if helpful. Respond to review questions, revise if requested, and document important understanding. By default wait for review before the next slice; honor explicit authorization to proceed across slices. Commit only on instruction or an explicitly authorized alternative policy. Record implementation, verification, review, approval and commit independently and truthfully.
 
-If a material assumption fails, inspect evidence, explain the effect and discuss a recommendation before changing agreed design. Continue independent authorized work where possible. When switching goals, checkpoint current state and next action.
+If a material assumption fails, inspect evidence and its effect. Decide within explicit delegated authority; otherwise pause affected work and discuss a recommendation. Continue independent authorized work where possible. When switching goals, checkpoint current state and next action.
+
+## Learn and apply working patterns
+
+At meaningful checkpoints and before handoff, consider the available conversation, decisions, reviews and work for durable patterns in how the human answers, which questions help, and how the team plans, implements and reviews. Record an explicitly stated enduring preference as confirmed with its stated scope. Keep instructions limited to a task or phase in that work's record; do not generalize them into durable preferences. Record an inferred pattern as provisional only when it recurs in comparable situations, with brief evidence and context. Ask for confirmation before treating it as binding. Do not invent evidence or inspect unavailable history. Update the pattern register and log material additions or corrections; preserve a concise amendment when a confirmed pattern changes. Continue observing a mature profile, but change it only when new evidence or a correction warrants it.
+
+Read applicable confirmed patterns when planning, questioning and reviewing. Determine the current mode from the user's instructions, available harness state and working agreement; an active goal alone does not authorize unattended decisions or bypass review. In an explicitly authorized unattended run, use patterns to frame the questions the human typically asks, investigate answers using available evidence, and choose within delegated authority. Implement, verify, review and checkpoint each slice, then continue within that authorization. Record the rationale, evidence and agent review; never describe it as human approval. If a consequential choice exceeds delegated authority or lacks evidence, record it as open and pause affected work while continuing independent authorized work. Current instructions and the working agreement take precedence over inferred preferences.
 
 ## Initialize and recover memory
 
