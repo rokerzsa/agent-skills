@@ -1,30 +1,31 @@
 ---
 name: goal-memory
-description: Guide substantial project goals through adaptive discussion, private OKF context, and small reviewable steps. Use for substantial project goals, goal-memory work, or when memory temp/index.md exists.
+description: Guide substantial project goals through focused discussion, private OKF memory, and reviewable phases. Use for substantial project goals, goal-memory work, or when memory temp/index.md exists.
 ---
 
 # Goal memory
 
-Help the human understand and accomplish a goal while preserving context. Apply to new projects, features, fixes, refactoring and understanding-only work. Scale the process: make and verify a clear small correction directly; discuss substantial or ambiguous work. Explicit instructions override defaults.
+Use for features, fixes, refactors, new projects and exploration. Make and verify clear, small fixes directly. For substantial or ambiguous work, use the workflow below. Explicit user instructions override defaults.
 
-## Understand together
+## Workflow
 
-Inspect the request, existing work and relevant memory before asking. Distinguish facts, assumptions and proposals. Explain the situation plainly; use responsibilities, state, actions and relationships when helpful. Use a short example, snippet, diagram or scenario when it clarifies a choice.
+1. **Understand.** Read relevant files and memory first. Separate facts, assumptions and proposals. Use the [probing guide](references/HOW-TO-USE.md#discuss-and-adapt) to ask one focused question at a time about a choice that changes the next step. Adapt to answers and record decisions, reasons and open questions as they arise. A request to understand or plan does not authorize implementation.
+2. **Plan.** Map the outcome, phases and dependencies. Keep later phases provisional. Give each independently reviewable phase its own numbered concept when preparing it. Agree on the next phase's scope, approach and checks where needed. Reuse prior authorization.
+3. **Implement and verify.** Work within the agreed scope. If new evidence materially changes the behavior, architecture, scope or risk, pause the affected work and discuss the choice. Continue unaffected authorized work.
+4. **Review.** Explain what changed, why and what the checks showed, including limitations. Apply feedback and update memory. Offer each phase for review before the next by default. Continue across phases or commit only when authorized. Record implementation, verification, review, approval and commits separately as they occur.
 
-Keep the whole goal in view while focusing on one manageable part. Ask one short, focused question at a time by default. Offer a simple recommendation and reason when useful. Do not ask for answers already provided or discoverable in the project. If an answer is broad, investigate and suggest a concrete focus. Adapt to each answer and revisit affected assumptions when necessary. Continue until material uncertainty is resolved or explicitly accepted; do not infer agreement from silence.
+## Private memory
 
-Record meaningful answers, decisions, reasons and open questions in their memory document during discussion. Summarize understanding and scope when agreement matters. A request to understand or plan alone does not authorize implementation.
+- For substantial work, follow the [initialization guide](references/HOW-TO-USE.md#initialize-and-recover-memory) to create or reuse the primary project's private, Git-ignored `memory temp/` bundle. Use it for shared context across repositories and record each repository's location and role. Ask if the primary project is unclear. Keep memory private unless explicitly authorized to share it.
+- On resume, read the index, working agreement, active state and working patterns. Follow relevant links and reconcile stale summaries against evidence.
+- Update the detailed goal, phase or decision first, then active state, affected indexes and log. Preserve earlier decisions and reasons. Keep existing local reference copies unless migration is agreed.
 
-## Plan and work in small pieces
+## File references
 
-Map the outcome, major phases and known dependencies for substantial goals. Keep later phases provisional; discuss the next cohesive, reviewable slice in detail: purpose, scope, approach, affected areas and verification. Anticipate consequential risks without inventing complexity. Respect prior authorization; do not ask again for an authorized step.
+Link relevant source files, phase records and evidence in plans, decisions and review notes. Use relative Markdown links within the bundle. For code across repositories, identify the repository and use a repository-relative path, adding a symbol or line when helpful. Find references before asking the user. If a necessary file cannot be located or accessed, ask for its path or link.
 
-Implement the authorized slice, verify what is practical and permitted, and explain why, what changed, how it works and what checks show. Use a diff or scenario when helpful. Answer review questions, make requested corrections and preserve new understanding in memory or useful code comments. By default offer the slice for human review before the next; explicit instructions may authorize continuous progression. Commit only when instructed, unless explicitly authorized otherwise for the goal or phase.
+## References
 
-Distinguish proposed, implemented, verified, reviewed, approved and committed; never invent evidence or approval. A commit does not establish approval. If evidence materially changes agreed behavior, architecture, scope or risk, pause affected work, investigate and discuss the choice; continue unaffected authorized work. Routine choices remain within the agreed slice.
-
-## Private context
-
-For substantial work with an established project location, initialize private memory temp/ automatically if absent. Do not initialize for a small self-contained task. Reuse existing memory without overwriting it. Where Git applies, protect it with a root-anchored /memory temp/ ignore rule and check whether files are tracked. An ignore rule does not untrack files. Do not commit, delete or export memory without explicit authorization. Without a project location, continue discussing and establish the location before creating memory.
-
-On subsequent work, read the root index, working agreement, active state and working patterns, then selectively follow relevant links. Reconcile inconsistencies from evidence; never invent past approval. Update the detailed goal or decision first, then active state, indexes and log as affected. Preserve earlier decisions and reasons when changed. Read [the operating guide](references/HOW-TO-USE.md) for discussion, execution and initialization, and [the OKF profile](references/SPEC.md) when maintaining memory. Installed references are templates; project copies are local snapshots and must not be silently overwritten.
+- [Operating guide](references/HOW-TO-USE.md) — Initialize memory, work across repositories and maintain phase records.
+- [OKF profile](references/SPEC.md) — Read before creating or updating memory. Follow its format, ID reservation, provenance and recovery rules.
+- Starter templates — [working agreement](templates/001-working-agreement.md), [active state](templates/002-active-state.md), [working patterns](templates/003-working-patterns.md).
