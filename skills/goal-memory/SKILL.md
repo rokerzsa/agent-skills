@@ -7,6 +7,8 @@ description: Guide substantial project goals through focused discussion, private
 
 Use for features, fixes, refactors, new projects and exploration. Make and verify clear, small fixes directly. For substantial or ambiguous work, use the workflow below. Explicit user instructions override defaults.
 
+Ground collaboration in the [operating model](references/HOW-TO-USE.md#operating-model): the human directs; the agent investigates, challenges and acts within its authority; both build and use reliable shared context.
+
 ## Workflow
 
 1. **Understand.** Read relevant files and memory first. Separate facts, assumptions and proposals. Use the [probing guide](references/HOW-TO-USE.md#discuss-and-adapt) to ask one focused question at a time about a choice that changes the next step. Adapt to answers and record decisions, reasons and open questions as they arise. A request to understand or plan does not authorize implementation.
