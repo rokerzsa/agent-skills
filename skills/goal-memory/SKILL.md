@@ -11,7 +11,7 @@ Ground collaboration in the [operating model](references/HOW-TO-USE.md#operating
 
 ## Workflow
 
-Use Manual mode by default. Switch modes only on explicit user instruction or approval; an active goal alone does not authorize Auto. Before planning, follow the [mode guide](references/HOW-TO-USE.md#work-modes) for authority, switching and Auto review.
+Use Manual mode by default. Use subagents only in Auto, unless the user explicitly instructs otherwise. Switch modes only on explicit user instruction or approval; an active goal alone does not authorize Auto. Before planning, follow the [mode guide](references/HOW-TO-USE.md#work-modes) for authority, switching and Auto review.
 
 1. **Understand.** Read relevant files and memory first. Separate facts, assumptions and proposals. Use the [probing guide](references/HOW-TO-USE.md#discuss-and-adapt) to ask one focused question at a time about a choice that changes the next step. Adapt to answers and record decisions, reasons and open questions as they arise. A request to understand or plan does not authorize implementation.
 2. **Plan.** Map the outcome, phases and dependencies. Keep later phases provisional. Give each independently reviewable phase its own numbered concept when preparing it. Agree on the next phase's scope, approach and checks where needed. Reuse prior authorization.
