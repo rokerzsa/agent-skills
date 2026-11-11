@@ -1,83 +1,55 @@
-# Markdown-first OKF research book architecture
+# Markdown-first research book architecture
 
-[Book home](../book/index.md) · [Chapter 11](../book/part-04-outputs-lifecycle/11-book-architecture-and-navigation.md) · [Synthesis](research-synthesis-and-lessons.md) · [Index template](../templates/research-book-index.md) · [Chapter template](../templates/research-book-chapter.md)
+[Book home](../book/index.md) · [Chapter 11](../book/part-04-outputs-lifecycle/11-book-architecture-and-navigation.md) · [Synthesis and editorial review](research-synthesis-and-lessons.md) · [Index template](../templates/research-book-index.md) · [Chapter template](../templates/research-book-chapter.md)
 
-**Output contract:** Every full GTM research project's reader-facing deliverable is a coherent, navigable **Markdown-first OKF book**. Docusaurus-*style* describes logical parts, chapters, category indexes, stable links and reader navigation; no Node.js build, website, sidebars configuration or duplicated publishing source is mandatory. The underlying evidence/semantic records remain authoritative for knowledge; the book is its readable derived presentation.
+The reader-facing deliverable is a coherent Markdown book explaining the researched company. Docusaurus-style means a logical reading path and stable navigation; no website build or duplicate publishing source is required. Evidence and project controls remain authoritative in the workspace.
 
-## 1. Obtain and respect the approved book plan
+## 1. Respect scope and audience
 
-- Read the research charter's intended audience, coverage, deliverables and high-level book outline before creating a draft book.
-- Material top-level chapter additions/removals/reordering, central narrative reframing and changed scope require a **human-approved charter/plan amendment** where consequential (DR-051). Codex may refine section titles, split overlong sections, move supporting passages and maintain indexes within the approved outline.
-- A project's topics determine its organization; do not force the GTM example outline onto every subject or mistake the skill specification book's 14 chapters for the company's research book.
-- The initial book may be incrementally developed during authorized investigation; distinguish **draft** from final completion. Completion is decided solely by the separate [contract/charter completion audit](completion-and-acceptance.md).
+Read the approved charter, audience, writing preferences and high-level outline. Introduce the company and industry for a reader unfamiliar with them unless the user specifies a specialist audience. Use the [synthesis procedure](research-synthesis-and-lessons.md) to reconstruct the business journey before writing.
 
-## 2. Required navigational surfaces
+Material changes to charter scope or top-level book structure require the applicable approval. Ordinary editorial improvements, stronger introductions, revised section order and clearer explanations within the approved chapter scope do not require new research authorization. Use the user's existing instructions when deciding whether a change is authorized.
 
-At minimum create or maintain the following as useful and warranted by the charter:
+## 2. Build a reading path
 
-1. **Main `book/index.md`:** title, audience, research scope, confidence/review caveat, how-to-read guidance, current draft/revision state and ordered links to parts/chapters.
-2. **Part/category indexes** for substantive collections: short framing, ordered chapter links, relevant neighboring parts, and semantic topic links.
-3. **Chapters:** concise purpose, subject/timeframe, sections in logical reading order, evidence-linked findings, contradictions/limitations, related topics, and previous/next/back-to-index navigation.
-4. **Reference appendices:** topic/concept index, chronological timeline, source/claim references, glossary, unresolved gaps and significant revision history **when useful**; link to authoritative registries instead of copying them.
-5. **Cross-chapter semantic links** to the concepts or mechanisms they discuss; maintain a distinct logical *reading order* vs semantic *knowledge network*.
+- **Book index:** Introduce the company, the journey and why it matters; give the timeframe, a concise draft/uncertainty notice and ordered real chapter links.
+- **Part indexes:** Briefly explain what the reader will understand and link chapters in reading order.
+- **Chapters:** Open with context, explain products and customer problems, connect material business changes and draw case-specific insights.
+- **Notes or appendices:** Offer source links, detailed disagreements, a timeline, glossary or other references when useful. Do not reproduce all internal registries.
 
-Use relative Markdown links with stable document targets plus canonical IDs for records; file location alone is not a stable `K`/`CLM`/`SRC` identity. Maintain lightweight ID→current-file/anchor lookup as records move or split.
+Organize for understanding, not source arrival. Chronology often supplies the backbone, with themes helping explain a stage. Company product, customer, distribution and money changes should be connected where the evidence allows. Do not force overlapping experiments into a single clean pivot.
 
-## 3. Preferred minimal on-disk book structure (illustrative, not a fixed taxonomy)
+Create only useful layers and pages. A short study may be a flat collection. Do not turn the skill specification's chapter structure into a fixed company-book taxonomy.
 
-```text
-projects/<PRJ_ID-or-slug>/book/
-  index.md
-  part-01-<semantic-name>/
-    index.md
-    01-<chapter-name>.md
-    02-<chapter-name>.md
-  part-02-<semantic-name>/
-    index.md
-    03-<chapter-name>.md
-  appendices/
-    topic-and-concept-index.md
-    evidence-and-limitations.md
-    revisions.md
-```
+## 3. Keep the main narrative readable
 
-Create folders and supporting indexes only when actual content warrants them; do not create blank placeholders as though research existed. An individual shorter project can use a flat chapter collection while preserving navigability.
+Follow the narrative and evidence standards in the synthesis procedure. Use company-facing headings and readable citations. Internal record chains, confidence badges, budget events, governance status tables and authoring instructions are not the book's introduction.
 
-## 4. Authoring a chapter
+Explain consequential uncertainty in the relevant discussion; keep detailed source adjudication in notes. Notes retain canonical IDs and supporting/counterevidence mappings, with public original links where available.
 
-1. Define the chapter's role and mandatory questions from the charter/plan; identify current `K`/qualified `CLM`/`SRC` evidence and required `RT` review status.
-2. Put reader-oriented explanation first; place short citations near material claims rather than dumping raw source entries into prose.
-3. Clearly distinguish **fact**, **reported account**, **inference**, **causal model**, **transferable hypothesis**; mark disputed, unverified or pending major review as appropriate.
-4. Use meaningful headings, manageable sections, tables/timelines only when they clarify, and coherent chapter transitions.
-5. Include a concise "Evidence and limitations" passage for consequential uncertainties; link to the exact underlying records, both supporting and contradicting.
-6. Include links to next/previous chapters and semantic neighboring topics; keep links resolvable after edits.
-7. Keep the narrative clean: journals, `RT` investigation notes, budget events and raw registry records are references, not the structure of the book.
+Lessons should explain what the researched case teaches and under what conditions. Personal application to the user's business requires a separate explicit request.
 
-## 5. Index maintenance and link integrity
+## 4. Publish a deliberate content selection
 
-When creating, splitting, moving or renaming a chapter:
+The OKF workspace may contain the book alongside plans, claims, sources, reviews, budgets and archives. Only reader-facing content belongs in site navigation. A revision log or work plan is not automatically a chapter because it is Markdown.
 
-- Preserve `K`, `SRC`, `CLM`, `RT` and design-decision identities; moving a Markdown file **never** reallocates a record ID.
-- Update main and part table-of-contents links and relevant previous/next pointers.
-- Update inbound chapter links and the stable ID-to-location lookup for any moved operational record.
-- Run a local link/anchor check where possible; if a link cannot be resolved, record the limitation before checkpoint advancement.
-- For a consequential new top-level hierarchy or change of central thesis, propose approval **before** applying the structural change; correcting underlying false evidence should not wait for cosmetic approval.
-- Keep significant prior chapter versions via [revision protocol](synthesis-revisions.md), not unnecessary whole-book snapshots on every edit.
+If a website is used, match links to its actual published content set. Link to public sources or included note pages; keep excluded operational targets in the workspace mapping. Do not expose internal records merely to silence broken-link warnings. Keep one maintained book source instead of parallel hand-edited copies.
 
-## 6. Semantic and operational separation
+## 5. Navigation and stable references
 
-A semantic `K-...` concept may be referenced by several books/projects. The canonical concept's ID and evidence relationships stay in the workspace knowledge layer; a chapter's prose need not be duplicated into the concept record. Cross-project use requires contextual revalidation. A chapter does not become a new source citation merely by summarizing another chapter.
+Use ordered chapter/part links and previous/next links where helpful. A canonical K/SRC/CLM/RT identity is distinct from a path and remains stable when content moves.
 
-## 7. Book quality check
+When creating, splitting or moving a page:
+1. Update real main/part indexes and inward/outward chapter links.
+2. Preserve canonical identities and evidence mappings.
+3. Preserve meaningful prior wording or artifacts through the [revision procedure](synthesis-revisions.md).
+4. Validate file paths and, when used, published route/anchor links.
+5. Advance the authoritative project checkpoint last.
 
-- [ ] Main book index clearly communicates audience, scope, current **draft** status and reading order.
-- [ ] All existing parts and chapters appear in the appropriate indexes and support navigation.
-- [ ] Each material conclusion is linked to traceable underlying evidence and review states.
-- [ ] Major unresolved contradictions and qualifications are visible in relevant chapters.
-- [ ] Introductory context precedes complex causal interpretations; topics are semantically grouped.
-- [ ] Terminology is consistent; first user vs first customer, list price vs realized revenue, observation vs causation are distinguished.
-- [ ] Relative links resolve, and stable canonical record IDs survive chapter changes.
-- [ ] No operational journal is presented as a reader-facing chapter substitute.
-- [ ] No Docusaurus build, live workspace, complete research project, or finalized release is claimed by the template alone.
+## 6. Review the actual reading experience
 
-Full project completion and reopening follow their [separate completion](completion-and-acceptance.md) and [dependency/reopening](dependency-impact-and-reopening.md) procedures; final external publication requires any applicable human authorization. Passing draft-book quality checks does not establish completion.
+A chapter must pass both the editorial and evidence reviews in the synthesis procedure. A working table of contents and valid IDs alone cannot demonstrate coherence.
+
+Verify that context precedes unfamiliar terms, products are understandable through actual use, transitions explain changes, details serve the narrative and lessons follow from the case. Verify traceability and material uncertainty separately.
+
+Draft-book quality does not establish subphase or project completion. Apply the separate [completion](completion-and-acceptance.md) and [reopening](dependency-impact-and-reopening.md) procedures when required.

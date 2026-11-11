@@ -1,77 +1,90 @@
-# Evidence-linked research synthesis and GTM lessons
+# Company narrative, evidence, and GTM lessons
 
-[Book home](../book/index.md) · [Chapter 10](../book/part-04-outputs-lifecycle/10-research-synthesis-and-lessons.md) · [Evidence protocol](source-and-claim-evidence.md) · [Red-team](red-team-and-adjudication.md) · [Book authoring](research-book-architecture.md)
+[Book home](../book/index.md) · [Chapter 10](../book/part-04-outputs-lifecycle/10-research-synthesis-and-lessons.md) · [Evidence protocol](source-and-claim-evidence.md) · [Book architecture](research-book-architecture.md)
 
-**Authority boundary:** The project's source, claim, review and semantic `K` records are authoritative for research evidence and interpreted knowledge. The Markdown research book is a **derived reader-facing synthesis**, not a second independent truth store. Draft books may be maintained through authorized research. [Criterion-based completion](completion-and-acceptance.md) and [impact-based reopening](dependency-impact-and-reopening.md) are separate procedures; neither follows solely from writing a chapter.
+The book should help a reader understand how a company developed and why its choices mattered. Authoritative source, claim, concept and review records supply the evidence. The book is a derived explanation, not another source of historical truth. Readability and evidence integrity are separate requirements; both must pass.
 
-## 1. Prerequisites and scope
+## 1. Establish the reader and scope
 
-Before drafting or materially revising synthesis:
+Use the approved charter and writing preferences. For a general reader or founder, assume no knowledge of the company or its industry. Introduce the company, the problem it addressed, and the product in everyday terms before discussing strategy. Explain necessary industry terms at first use.
 
-1. Verify approved research charter, intended audience/output and high-level book outline; verify any required detailed plan/contract authorization for **new** investigation. Writing from already authorized persisted records does not silently expand the charter.
-2. Check the one approved standalone OKF workspace and valid project checkpoint. Do not produce an authoritative unsaved manuscript from an inconsistent workspace.
-3. Resolve cited `K-...` and qualified `PRJ-...:CLM-...`, `PRJ-...:SRC-...`, and `PRJ-...:RT-...` references through their registry/index locations; record any inaccessible source or stale link explicitly.
-4. Review current evidence state, confidence, red-team status, consequential contradictions, critical gaps and dependencies. Treat `pending`, `unresolved` and `qualified` reviews accordingly; no review may be fabricated to complete a chapter.
-5. Check any assigned research resource limit before **new** source discovery, verification or paid access. Synthesis does not waive the budget procedure.
+Check current records, material counterevidence, review outcomes and gaps before drafting. Writing from existing authorized evidence does not authorize new research, spending or changes in scope. Research completion still requires the separate [completion audit](completion-and-acceptance.md).
 
-Drafting may begin while some nonblocking research remains provisional, as long as the visible draft precisely labels its limitations and does not claim final research completion.
+Lessons belong to the researched case and general business conditions. Do not import the user's company, product, industry or current strategy from memory or conversation history. A specific comparison or recommendation for that business requires a separate explicit request. General lessons may remain specific to the researched company's type of business.
 
-## 2. Build a claim-to-section map before narrative drafting
+## 2. Understand the business before outlining the story
 
-For each approved book chapter, construct a compact working map (a table in the chapter draft or book index is sufficient):
+Construct a compact internal journey map from the evidence. For each material stage, understand:
 
-| Chapter question | Source of knowledge | Required review state | Limitation | Intended narrative treatment |
-|---|---|---|---|---|
-| What happened? | `K` concept → relevant `CLM` → `SRC` | As required by conclusion impact | Missing independent evidence? | Observation or qualified report |
-| Why did it happen? | Causal `CLM` / aggregate conclusion + `RT` | Major causal conclusion reviewed before reliance | Alternatives unresolved? | Competing mechanisms |
-| What transfers? | Historical evidence + scoped causal model | Review requirements inherited from underlying major claims | Target-market differences? | Conditional lesson, not universal rule |
+| Aspect | Question to resolve |
+|---|---|
+| Problem and alternatives | What was difficult for the customer, and how was it handled before? |
+| Product workflow | What did someone actually do with the product, and what did the company deliver? |
+| User, buyer and payer | Who used it, chose it and paid? Did those roles change? |
+| Acquisition | How did people discover, try or buy it? |
+| Economics | What was offered or charged, and what is known about delivery cost, payment and revenue? |
+| Outcome | What changed, failed or remained unresolved? |
+| Transition | What prompted the next change according to the actors, and what does the evidence otherwise suggest? |
 
-The map is a drafting aid, not a new independent claim registry. Reuse stable record identities. Do not create one file per routine sentence or a duplicate source/citation ledger solely for the book.
+Map material statements to existing K/CLM/SRC/RT records and note missing information. Keep this worksheet outside published prose. It is not a new registry or a mandatory seven-heading layout. Unknown fields remain unknown.
 
-## 3. Write observations, causal models and transferable lessons separately
+Identify the chapter's explanatory question and the sequence needed to answer it. Distinguish company chronology from the order in which sources were discovered. Preserve overlapping experiments instead of inventing a single clean pivot.
 
-**Observation:** State only what evidence actually establishes, with date, defined subject and provenance where important. An archived pricing page demonstrates an advertised price, **not** a collected payment; a founder interview demonstrates a reported statement, **not** the underlying event.
+## 3. Write a connected explanation
 
-**Causal interpretation:** Name mechanism, counterfactual or discriminating evidence, confounders, temporal ordering and important rival accounts. A co-occurring growth tactic is not automatically the primary cause of growth. If evidence cannot rank causal contributions, say so.
+Open with the company, customer problem and central business question. Give readers enough concrete context to understand what the business did. Avoid opening with a dispute about dates or the researcher's evidence limitations unless that dispute is itself the chapter's subject.
 
-**Transferable lesson:** State the contingent principle, causal assumptions, source conditions, recipient-context fit/mismatch, failure modes, confidence and a sensible future validation method. If causation is unverified, use a *possible hypothesis to test*, not a proven playbook. Do not invent another startup's market data.
+For each important transition, connect the prior situation, the pressure or opportunity, the company's response, and the resulting change. Explain product use before abstract labels such as platform, funnel, ecosystem or positioning. Explain changes in buyer, distribution and money alongside product changes where relevant.
 
-Suggested lesson format (adapt without forcing generic boilerplate):
+Use chronological development as the backbone when tracing evolution; use thematic sections where they improve understanding. Each section should advance the explanation rather than repeat evidence already presented. New evidence should be integrated into its historical place, not appended as another source summary.
 
-- **Historical basis:** Exact supported observation with `K`/`CLM`/`SRC` citations.
-- **Proposed mechanism:** How it might have produced the outcome, linked to reviewed `RT` if major.
-- **Transfer conditions:** Product, buyer, distribution, timing, regulation, network effects and resource prerequisites relevant to this case.
-- **Failure conditions / alternatives:** What might make it ineffective or a misleading analogy.
-- **Confidence and validation:** Qualitative conclusion plus affordable, legitimate discriminating test.
+Never invent scenes, dialogue, founder motives, customer emotions or causal bridges to improve the story. An unclear transition should be explained as unclear.
 
-## 4. Communicate uncertainty without burying the reader
+## 4. Exercise judgment while preserving uncertainty
 
-- Use precise, calibrated words: *documented*, *reported*, *suggests*, *plausible*, *disputed*, *unverified*, *refuted* as supported by the record.
-- In prose, cite stable record references at material claims; where the record is controversial, link the counterevidence and `RT` verdict, not merely the positive source.
-- A major conclusion with `review: pending` may be **discussed as a working hypothesis** in a visibly labeled draft; it cannot be presented as a red-team-passed final conclusion. A `qualified` review restricts the wording to the defensible scope; `unresolved` retains alternatives and a material limitation.
-- Do not create artificial numeric confidence percentages or count repeated articles as independent corroboration.
-- Don't imply that a polished narrative, user approval, or a more recent report version makes a disputed fact true.
+Distinguish in substance:
+- **What happened or was reported:** Attribute retrospective or interested accounts where it changes how the statement should be understood.
+- **What it means:** Offer supported interpretation, including operational comparisons that sources make possible. Use ordinary wording such as “One likely advantage was…” or “This could have reduced…”. Explain the basis and a consequential rival explanation. Do not turn that comparison into an established founder motive or realized outcome.
+- **What can be learned:** Derive a case-specific insight with conditions and limits.
 
-## 5. GTM-specific synthesis checks
+A founder's stated reason and the author's explanation may differ; make that distinction clear. Major causal conclusions retain their mandatory independent review requirements. A pending or unresolved review cannot become a confident finding through polished prose. Causality cannot be inferred from sequence or simultaneous growth alone.
 
-For historical company GTM, preserve distinctions between: first users, active users, trial accounts, signed clients, first *paying* customers, listed customer logos, billed transactions and realized revenue; advertised versus actual price; acquisition channel versus causal growth driver; founder recollection versus contemporary record. Respect cohorts, currencies, relevant dates and timeframes. If the first 10/100 paying customers are not documented, say **the list cannot be verified**, explain the search and gap, and avoid filling names by inference.
+State a material uncertainty briefly where it changes the story. Put the detailed source disagreement, access limitations and accounting definitions in notes. Do not repeat “no invoice or contract was inspected” after every paragraph. A caveat must remain in the main text when moving it would materially mislead the reader.
 
-Use an approved thematic/chronological outline to connect market preconditions, founders, product development, competitive alternatives, customer discovery, marketing, sales, distribution, experiments, monetization and causal explanations. No topic is presumed historically true or mandatory beyond the approved charter.
+## 5. Select detail and use plain language
 
-## 6. Source-derived book writes and review
+A detail earns space in the main story when it changes understanding of a decision, customer, product, business model, outcome or lesson. Put useful verification detail in notes; omit trivia and duplicate summaries. Do not display every discovered fact.
 
-1. Prepare/refresh the section's claim-to-concept map; mark missing/weak or stale records.
-2. Draft clear reader-oriented prose with links to current `K` concepts, scoped `CLM`/`SRC` and applicable `RT` records.
-3. Include material competing interpretations, evidence limits and any open critical gap; don't hide them in an appendix alone.
-4. Check approved charter scope, book outline and top-level structural approvals; use [book architecture](research-book-architecture.md) for navigation and stable links.
-5. For a material corrected claim, invoke [selective revision procedure](synthesis-revisions.md) rather than silently overwriting the explanation.
-6. Persist approved-scope draft book changes in durable write order: substantive content/revision records, affected indexes and navigation, link/consistency checks, then checkpoint last.
-7. Label the book lifecycle `draft`, `revision-pending` or `completed` only according to [separate charter/contract completion checks](completion-and-acceptance.md). **The synthesis procedure itself cannot mark a subphase or project complete.**
+Keep an exact amount, date or count when its precision matters. Explain the denominator in familiar words when needed. Distinguish users from payers and list prices from actual receipts without repeatedly listing every possible account status.
 
-## 7. Illustrative distinction — not a company finding
+Use familiar words, concrete actors and active verbs. For example, “what the user count includes” is clearer than “engagement denominator,” and “whether the community brought in paying companies” is clearer than “causal sales attribution.” Explain essential technical vocabulary instead of replacing it with another unfamiliar term.
 
-> **Observed:** An archived page from ExampleCo in Year N advertised student competitions (`SRC`/`CLM` references required in a real study).  
-> **Possible mechanism:** Competitions may have increased awareness, but no channel-level conversion evidence currently identifies their relative contribution to paid customer growth (`RT` pending/unresolved if major).  
-> **Transfer hypothesis:** Community competition programs may warrant limited tests for a product with comparable audiences and institutional access; expected cost, competing channels and paid-conversion evidence must be evaluated locally.
+Use headings about the company and its changes. Avoid routine headings named Observation, Source-access caveat, Review or Confidence. Internal IDs, review badges, budgets, approval mechanics and skill instructions belong in workspace records rather than the reader's introduction.
 
-This example is a **format demonstration only**. It is not a factual finding about Unstop, HackerRank or any other real company.
+## 6. Cite evidence without making it the narrative
+
+Use short numbered note links or descriptive source links near material assertions. Notes should map to canonical SRC/CLM/K/RT records and original public sources where available. Keep internal IDs in notes or the workspace mapping rather than long chains in each paragraph.
+
+For contested claims, notes should include both the supporting and qualifying evidence. Preserve original information lineages; repeated accounts are not independent confirmation. No artificial numeric confidence scores.
+
+When publishing only the book, link to included reader-facing notes or public source URLs. Do not create broken website links to excluded plans, registries or skill files. Traceability must remain available in the workspace even if those files are not published.
+
+## 7. Teach through the case
+
+Explain the insight from an important turning point as it unfolds. End with a few developed lessons when useful, each grounded in a concrete case event and explaining why it matters, the conditions that make it relevant, and its limits.
+
+Avoid generic advice such as “listen to customers” without explaining what was learned and changed. Avoid mechanically repeating Potential lesson / Applicable when / Could fail when for every lesson. The analysis should be present in natural prose.
+
+If the mechanism remains uncertain, treat the lesson as a useful possibility or distinction rather than a proven recommendation. Do not force every finding into advice for another startup.
+
+## 8. Review the draft twice
+
+**Editorial pass:** Read the main story without the source notes. Can a new reader explain what the company offered, whom it served, how customers arrived and money was made, and why its direction changed? Check the introduction, product explanations, transitions, chronology, repetition, jargon, detail relevance and lessons. Remove paragraphs that only repeat a source's existence or limitations without advancing understanding.
+
+**Evidence pass:** Trace material statements back to the records, verify date and customer definitions, check that inferred reasons are presented as interpretation, preserve consequential counterevidence and mandatory review states, and ensure that editing did not strengthen an uncertain claim.
+
+For substantial writing changes, try an introduction and one material transition first. Review the sample against both passes and revise the guidance if it fails; then apply it to the rest of the affected chapter. A finite word-count or phrase-matching check cannot establish narrative quality.
+
+## 9. Persist and maintain
+
+Follow [book architecture](research-book-architecture.md) and [revision procedures](synthesis-revisions.md). Preserve meaningful prior versions, update notes and navigation, validate references, and advance the authoritative checkpoint last. Keep draft status and research completion distinct. Budget exhaustion never establishes evidence exhaustion.

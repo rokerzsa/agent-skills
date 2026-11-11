@@ -18,7 +18,7 @@ Consider offering a checkpoint when:
 - A major causal conclusion and its red-team challenge can be compared.
 - An important early-customer or channel assumption changes.
 - A phase boundary exposes alternative GTM trajectories.
-- A transferable lesson demands analysis of what changes in the learner's own context.
+- A case-specific lesson raises a useful question about the researched company's choices or the general conditions behind its outcome.
 
 Avoid quizzes after every source or trivial paragraph. When a checkpoint would disrupt independent work, defer the discussion and continue only unaffected authorized investigation. A checkpoint cannot silently override a true charter approval requirement.
 
@@ -28,7 +28,7 @@ Avoid quizzes after every source or trivial paragraph. When a checkpoint would d
 2. Briefly expose uncertainty, direct vs reported evidence and one or two meaningful competing interpretations.
 3. Ask a **targeted reasoning question**, such as which alternative explanation the learner favors and what contemporaneous evidence would distinguish it.
 4. Explore the human's answer respectfully; explain strengths, missed assumptions and counterevidence. Do not use superficial recall or ceremonial agreement.
-5. If appropriate, connect findings to target-context hypotheses (e.g. which acquisition channel could plausibly work for a different buyer), stating conditions and bias.
+5. Explain the lesson through the researched company and its business conditions. Do not import the learner's company, product, industry or strategy from conversation history. Connect a finding to that business only on a separate explicit request.
 6. Summarize what was learned and optional follow-up questions without modifying source/claim evidence states based solely on learner agreement.
 
 ## 4. Learning note and nonblocking state

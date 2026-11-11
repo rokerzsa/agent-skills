@@ -12,6 +12,8 @@ The final reader-facing documentation must be **Markdown-first**, semantically o
 
 A proper research book includes a title/introductory index, logical parts and chapters, sections, relevant appendices, internal links, evidence citations and a progressive reading order. It must be understandable without inspecting raw investigation journals.
 
+Introduce what the company does and the customer's problem before evidence terminology. For a general reader, explain unfamiliar industry terms and actual product use. The detailed narrative and editorial criteria live in the [synthesis procedure](../../references/research-synthesis-and-lessons.md); chapter templates are flexible aids, not visible evidence-report forms.
+
 ## 11.2 Reader-oriented structure
 
 Organize according to what the reader must understand, **not** chronology of research tool calls. A typical sequence is background and definitions; market/product chronology; acquisition and monetization mechanisms; critical evaluation and competing interpretations; lessons, limitations and references. The actual high-level outline is approved in the research charter. It can be adapted for the project instead of enforcing a universal GTM taxonomy.
@@ -35,6 +37,8 @@ A chapter path or Markdown anchor is a *location*, not the canonical identity of
 A research journal, review record, raw budget event or claim registry should ordinarily be accessed as supporting evidence, not inserted wholesale into the narrative. Give the reader enough citations and qualifications to evaluate significant claims and let an auditor drill down to original provenance.
 
 Do not hide material unresolved evidence in appendices when it directly affects a chapter's conclusion; disclose the limitation in the relevant discussion and link the detailed record.
+
+Use short readable citations in the story and put record IDs, detailed disagreements and access metadata in notes or workspace mappings. When publishing a selected book, links must target included notes or public sources; excluded plans, registries and skill instructions must not leak into site navigation or create broken links. Scope and approval tables belong in project records. Lessons concern the researched case and general business conditions; personalized comparisons require a separate explicit request.
 
 ## 11.6 Adaptive structure under the approved charter
 

@@ -1,50 +1,49 @@
 # Chapter {{CHAPTER_NUMBER}} — {{CHAPTER_TITLE}}
 
-> **TEMPLATE ONLY — illustrative structure, not a factual GTM finding.**
+<!-- AUTHORING TEMPLATE: remove instructions and unused placeholders from the published chapter.
+Use the approved reader and scope. Adapt the structure to the company's story rather than treating every heading below as mandatory.
+Internal journey/evidence maps, source-access metadata and approval mechanics stay outside the main prose. -->
 
-[Book contents]({{RELATIVE_BOOK_INDEX}}) · [Part index]({{RELATIVE_PART_INDEX}}) · [Previous]({{RELATIVE_PREVIOUS_CHAPTER_IF_ANY}}) · [Next]({{RELATIVE_NEXT_CHAPTER_IF_ANY}})
+[Book contents]({{RELATIVE_BOOK_INDEX}}) · [Part index]({{RELATIVE_PART_INDEX}})
 
-**Scope:** {{CHARTER_ALIGNED_QUESTION_AND_TIMEFRAME}}  
-**Chapter status:** `draft` / `revision-pending`; do not silently declare final research completion.  
-**Supporting semantic concepts:** `{{K-IDS_AND_RELATIVE_LINKS}}`
+{{OPENING_THAT_INTRODUCES_THE_COMPANY_CUSTOMER_PROBLEM_AND_CENTRAL_QUESTION}}
 
-## Reader orientation
+## {{STARTING_PROBLEM_AND_PRODUCT}}
 
-{{CONCISE_CONTEXT_WHAT_THE_CHAPTER_EXPLAINS_AND_WHAT_IT_DOES_NOT_ESTABLISH}}
+{{EXPLAIN_THE_CUSTOMERS_ALTERNATIVES_AND_ACTUAL_PRODUCT_WORKFLOW_IN_FAMILIAR_WORDS}}
+{{CONNECT_USERS_BUYERS_PAYERS_ACQUISITION_AND_ECONOMICS_WHERE_KNOWN}}
+{{SHORT_SOURCE_LINK_OR_NUMBERED_NOTE}}
 
-## {{FIRST_LOGICAL_SECTION}}
+## {{A_MATERIAL_CHANGE_IN_THE_BUSINESS}}
 
-{{READER_FACING_OBSERVATIONS_WITH_DATES_AND_TRACEABLE_K_CLM_SRC_LINKS}}
+{{CONNECT_PRIOR_SITUATION_PRESSURE_OR_OPPORTUNITY_COMPANY_RESPONSE_AND_OUTCOME}}
+{{DISTINGUISH_STATED_REASONS_FROM_SUPPORTED_AUTHOR_INTERPRETATION}}
+{{EXPLAIN_THE_INSIGHT_THAT_FOLLOWS_FROM_THIS_CHANGE_WITHOUT_GENERIC_ADVICE}}
+{{BRIEF_MATERIAL_UNCERTAINTY_WHERE_NEEDED_AND_LINK_TO_DETAILED_NOTE}}
 
-- **Observation:** {{EXACT_OBSERVED_OR_REPORTED_PROPOSITION}} — `{{PRJ:CLM}}` → `{{PRJ:SRC}}`.
-- **Source-access caveat:** {{DIRECT_OR_SECONDHAND_ACCESS_AND_INFORMATION_LINEAGE}}.
+<!-- Add subsequent sections only where they advance the chapter's explanation.
+Integrate later evidence into the relevant historical stage. Do not append source-by-source updates. -->
 
-## {{CAUSAL_OR_ANALYTICAL_SECTION_WHERE_APPLICABLE}}
+## {{WHAT_THIS_STAGE_TEACHES_IF_USEFUL}}
 
-{{EXPLANATION_WITH_PRECISE_SCOPE_NOT_IMPLIED_CERTAINTY}}
+{{A_FEW_DEVELOPED_CASE_SPECIFIC_LESSONS_WITH_REASONS_CONDITIONS_AND_LIMITS}}
+{{NO_PERSONALIZED_BUSINESS_COMPARISON_UNLESS_SEPARATELY_REQUESTED}}
 
-**Competing explanations:** {{OTHER_MECHANISMS_AND_WHAT_EVIDENCE_DISCRIMINATES}}  
-**Review:** `{{PRJ:RT}}`, status `pending` / `passed` / `qualified` / `unresolved` (use actual record)  
-**Confidence:** `high` / `medium` / `low` / `unverified`, with rationale from authoritative claim record.
+## Sources and notes
 
-## Transferable implications (only if charter requires)
+<!-- Prefer public original links and/or published note pages. Preserve the canonical
+SRC/CLM/K/RT mapping here or in workspace records. Do not link the website to excluded files.
+Each material uncertainty must still be apparent in the discussion it affects. -->
 
-**Potential lesson:** {{CONDITIONAL_INSIGHT}}  
-**Applicable when:** {{CONTEXT_MATCH}}  
-**Could fail when:** {{DIFFERENCES_RISKS_AND_ALTERNATIVES}}  
-**What to validate:** {{PROPOSED_DISCRIMINATING_EVIDENCE_OR_SAFE_TEST}}
+### Note 1
 
-## Evidence and limitations
+{{PUBLIC_SOURCE_LINKS_CANONICAL_RECORD_MAPPING_AND_RELEVANT_SOURCE_LIMITATIONS}}
 
-- Supporting sources/claims: {{QUALIFIED_STABLE_RECORD_REFERENCES_AND_LINKS}}
-- Material contradictions: {{COUNTEREVIDENCE_OR_EXPLICIT_NONE_WITH_BASIS}}
-- Critical or unresolved gaps: {{GAP_IDS_AND_RESEARCH_EFFECT}}
-- Review limitations: {{PENDING_OR_QUALIFIED_MAJOR_CONCLUSIONS}}
+### Note 2
 
-## Further reading and links
+{{SUPPORTING_AND_CONTRADICTING_ACCOUNTS_WITH_THE_BOUNDED_INTERPRETATION}}
 
-- [Related semantic concept]({{RELATIVE_K_LINK}})
-- [Relevant related chapter]({{RELATIVE_CHAPTER_LINK}})
-- [Full source/claim/review registries]({{RELATIVE_EVIDENCE_INDEX_LINK}})
-
-**Revision pointer:** {{LOCAL_REVISION_ID_OR_NOT_YET_REVISED}}. Material changes must follow [synthesis revision procedure]({{LINK_TO_SKILL_REVISION_PROCEDURE}}).
+<!-- Review before delivery:
+Can the intended reader explain the business and each material transition without reading these notes?
+Can the author trace material statements to evidence without overstating reasons or outcomes?
+Keep lifecycle/revision details in workspace records; use a short reader-facing draft notice where useful. -->

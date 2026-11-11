@@ -24,7 +24,7 @@ No such chapter's existence is proof that underlying data were found. When a man
 
 **Causal interpretation:** What likely contributed to the outcome, how, under what temporal and contextual conditions, and what rival explanations remain. Showing that two events occurred together does not establish one caused the other.
 
-**Transferable lesson:** What may work under another company's specific conditions, and what prerequisites, confounders, resource constraints and failure modes affect that inference. Historical success is not automatically a universal playbook.
+**Transferable lesson:** What the researched company's experience teaches, why that insight follows, and which general business conditions and failure modes limit it. Lessons may stay within the researched company's type of business. Apply them to the user's business only when separately requested; never import that business from conversation history.
 
 The synthesis must label these layers in substance, though it need not mechanically repeat a three-part form for every paragraph.
 
@@ -44,6 +44,15 @@ Major conclusions with `review: pending` can be explored in a clearly labeled **
 
 ## 10.6 Traceable synthesis workflow
 
+Before outlining, reconstruct the company journey from the records: customer problem and alternatives, actual product workflow, user/buyer/payer, acquisition, economics, outcome and reason for change. Use this as an internal thinking aid. Organize the prose around how the business evolved, not the order of source discovery.
+
+For a general reader, introduce the company and industry before disputes about dates. Explain each material transition through the prior situation, pressure or opportunity, company response and result. Distinguish founders' stated reasons from supported author interpretation in ordinary language. Do not invent motives or force overlapping products into a single pivot.
+
+Select details by whether they change understanding of a decision, customer, business model, outcome or lesson. Use readable citations with detailed source comparisons in notes. Keep material uncertainty near the affected conclusion, without repeating access caveats after every paragraph. Internal IDs, review badges and approval mechanics belong in notes or project records.
+
+The detailed authoring and two-pass editorial/evidence review are defined in the [synthesis procedure](../../references/research-synthesis-and-lessons.md). Review an introduction and one material transition before applying substantial writing changes to the affected chapter.
+
+
 1. Validate approved charter, reader audience and current contract/authorization limits.
 2. Read current `K` concept records and linked qualified `CLM`, `SRC` and `RT` records, including counterevidence, access mode and review status.
 3. Map mandatory questions and material conclusions to sections; identify missing evidence or unresolved review needs.
@@ -55,7 +64,7 @@ Major conclusions with `review: pending` can be explored in a clearly labeled **
 
 ## 10.7 Versioned selective maintenance
 
-On new evidence, Codex must reassess impacted source/claim/concept/review records **before** revising derived book text. Identify affected chapters, preserve previous consequential wording or version references, record trigger evidence and its effect on conclusions, then update **only affected sections** where practical. Preserve stable IDs and repair indexes/links.
+On new evidence, Codex must reassess impacted source/claim/concept/review records **before** revising derived book text. Identify affected chapters, preserve previous consequential wording or version references, record trigger evidence and its effect on conclusions, then integrate the evidence into the relevant historical stage and resynthesize affected sections and transitions. Consolidate duplicate explanations rather than appending successive source summaries. Preserve stable IDs and repair indexes/links.
 
 Minor typographic changes need not cause full book regeneration. Material evidence revisions must not be suppressed to protect the previous narrative. A newer book version is not automatically a more certain conclusion.
 
@@ -63,7 +72,7 @@ Use a [local revision ledger](../../templates/synthesis-revision-log.md) with st
 
 ## 10.8 Illustrative GTM interpretation (not a finding)
 
-Suppose a hypothetical company ran a campus contest. An archived site may support the observation *a competition was advertised*. It does not alone prove there were paying enterprise customers or that the contest caused growth. A prospective lesson for another startup would therefore remain conditional on audience fit, institutional distribution, paid-conversion evidence and alternative channel explanations.
+Suppose a hypothetical company ran a campus contest. An archived site may support the observation *a competition was advertised*. It does not alone prove there were paying enterprise customers or that the contest caused growth. A lesson from this case might distinguish attracting candidates from acquiring paying employers. Its usefulness depends on whether the contest actually produced each outcome and on what other channels were operating. A comparison to the reader's own business is not presumed.
 
 ## 10.9 Integrity and scope gate
 
