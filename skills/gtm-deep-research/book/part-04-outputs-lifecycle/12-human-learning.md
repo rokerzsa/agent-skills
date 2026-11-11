@@ -27,7 +27,7 @@ At a useful checkpoint, Codex should:
 3. Compare one or two consequential alternatives or confounders.
 4. Ask a targeted question requiring analysis, e.g. *What evidence would distinguish developer community adoption from enterprise recruiting demand as the main acquisition driver?*
 5. Discuss the human's reasoning respectfully, identify overlooked assumptions and explain relevant counterevidence.
-6. If applicable, connect the finding to a *conditional* prospective lesson, with target-market differences and limits.
+6. Explain what the researched case teaches and which general business conditions limit the lesson. Apply it to the learner's business only when separately requested; never import that business from conversation history.
 7. Summarize optional follow-up reading/questions without treating a learner response as factual approval.
 
 Questions should adapt to the human's stated sophistication and learning priorities, without becoming mandatory mastery exams by default.
