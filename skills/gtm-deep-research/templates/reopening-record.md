@@ -12,6 +12,10 @@
 | Reopened status | `reopened — assessment pending` (only after validated durable write) |
 | Charter and detailed-plan currently approved | `{{VERSION_AND_ACTUAL_DEC_REFERENCES}}` |
 | Existing budget permission and usage reliability | `{{LEDGER_AND_MEASUREMENT_STATUS}}` |
+| Delivery boundary | {{ACTIVE_RUN_OR_DELIVERED_EDITION_AND_DATE}} |
+| Authority to resume after delivery | {{ACTUAL_USER_REVIEW_REVISION_REQUEST_OR_EXPLICIT_CONTINUING_AUTHORIZATION_OR_NONE}} |
+
+After delivery, recording a trigger and flagging affected findings does not authorize new research or substantive revision. Without a user review/revision request or explicit continuing authorization, retain assessment-pending flags and report the impact. Follow the reopening procedure before resuming.
 
 ## Affected versus unaffected scope
 

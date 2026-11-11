@@ -22,7 +22,7 @@
 **Reason:** {{EVIDENCE_RATIONALE_AND_IMPORTANCE}}  
 **Evidence state, confidence and review:** {{PRIOR_AND_CURRENT_DISTINCT_VALUES}}  
 **Dependent conclusions/lessons:** {{KNOWN_DEPENDENCIES_OR_LIMITATION}}  
-**Top-level structure/charter change:** `none` / `approval pending` / `{{EXACT_HUMAN_DEC_ID}}`  
+**Change authority:** {{IN_SCOPE_AUTONOMOUS_STRUCTURE_OR_INTERPRETATION_CHANGE_OR_TRUE_OBJECTIVE_SCOPE_AMENDMENT_AND_ACTUAL_DEC}}
 **Retained prior version:** {{VERSION_LINK_OR_EMBEDDED_PREVIOUS_WORDING}}  
 **Navigation/link validation:** {{WHAT_WAS_ACTUALLY_CHECKED_AND_RESULT}}  
 **Checkpoint reference:** {{CURRENT_AUTHORITATIVE_CHECKPOINT_LINK}}

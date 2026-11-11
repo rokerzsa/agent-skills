@@ -42,7 +42,7 @@ Suppose Study A reported that a software assessment company began enterprise sal
 
 ## 9.9 Monitoring and authorization boundary
 
-Autonomous reopening is triggered **when the skill encounters new evidence** or under a separately authorized monitoring process. This chapter does not make Codex a continuously running agent. Neither reopening nor selective pausing authorizes unapproved spending, research scope, a new contract or plan. If material dependence cannot be searched confidently, the impact report must disclose that coverage limitation.
+Autonomous reopening is triggered **when the skill encounters new evidence** or under a separately authorized monitoring process. After review-ready delivery, preserve encountered evidence and flag affected findings, but resume research only on a user review/revision request or explicit continuing authorization, as defined by the [reopening boundary](../../references/dependency-impact-and-reopening.md#4-completed-project-reopening). Monitoring permission alone does not authorize remediation unless it explicitly includes that work. This chapter does not make Codex a continuously running agent. Existing scope and spending limits remain binding. If material dependence cannot be searched confidently, the impact report must disclose that coverage limitation.
 
 ## 9.10 Recoverable revision order
 

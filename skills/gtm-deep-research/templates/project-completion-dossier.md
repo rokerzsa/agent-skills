@@ -1,56 +1,27 @@
-# Project Completion Dossier — {{PRJ_ID}}
+# Review-ready Research Dossier — {{PRJ_ID}}
 
-> **TEMPLATE — NOT A COMPLETED PROJECT.** Completion is autonomous only after the current approved charter criteria, mandatory independent reviews and book deliverables genuinely pass [the project audit](../references/completion-and-acceptance.md). Human approval cannot make disputed historical claims true.
+**Agreement / version / actual decision:** {{AUTHORITY}}
+**Book / cutoff:** {{EDITION_AND_CUTOFF}}
+**Reviewer method:** {{ACTUAL_METHOD_NO_INVENTED_AGENT_OR_INDEPENDENCE}}
 
-| Field | Evidence-backed value |
-|---|---|
-| Project and scope | `{{PRJ_ID}}` / `{{RESEARCH_SUBJECT}}` |
-| Approved charter / version | `{{CHARTER_LINK_VERSION}}` |
-| Charter/plan decision references | `{{ACTUAL_PRJ_DEC_REFERENCES}}` |
-| Final project state | `draft` until validated; then `complete`, `complete with qualifications`, or `blocked/incomplete` |
-| Current dossier version | `{{DOSSIER_VERSION}}` |
-| Prior completion dossier (if reopened) | `{{PREVIOUS_LINK_OR_NONE}}` |
-| Reader-facing book | `{{INDEX_LINK_WHEN_EXISTS}}` |
+## Agreed objective audit
 
-## Charter completion matrix
-
-| Mandatory charter question / criterion | Outcome | Evidence and reviewed conclusion links | Qualifying limitation | Satisfied? |
-|---|---|---|---|---|
-| `{{CHARTER_CRITERION}}` | `{{ANSWERED_QUALIFIED_UNRESOLVED}}` | `{{K_CLM_SRC_RT_REFS}}` | `{{NONE_OR_DETAIL}}` | `pending` |
-
-## Phases and subphases
-
-| Phase / contract | Versioned subphase dossier | Completion disposition | Dependent blockers |
+| Question / criterion | Evidence / review chain | Answer or investigated qualification | Remaining impact / blocker |
 |---|---|---|---|
-| `{{PHASE_RC}}` | `{{REAL_DOSSIER_LINK}}` | `{{REAL_STATUS}}` | `{{REAL_BLOCKERS_OR_NONE}}` |
+| {{CRITERION}} | {{SRC_CLM_K_RT}} | {{ACTUAL_OUTCOME}} | {{LIMIT_OR_NONE}} |
 
-## Research integrity and limitations
+## Four final checks
 
-- Major/aggregate causal and strategic conclusions, confidence and `RT` coverage: `{{REVIEW_INDEX_REFERENCES}}`
-- Remaining evidence-exhausted noncritical gaps and the charter basis permitting qualification: `{{GAP_IDS_AND_REASONING}}`
-- Critical gaps, material disputes, invalidated assumptions and authorized disposition: `{{EXPLICIT_RECORDS_OR_BLOCKED}}`
-- Material upstream dependency checks and unknown coverage: `{{DEPENDENCY_REGISTER_AND_LIMITATIONS}}`
-- Assumptions, exclusions, inaccessible evidence and revisit triggers: `{{EXPLICIT_LIMITATIONS}}`
+- Complete GTM system in one canonical chapter; material historical/current/emerging coverage reconciled: {{ACTUAL_CHECK}}
+- Choices, alternatives, trade-offs, mechanisms, execution and results/unknowns analyzed: {{ACTUAL_CHECK}}
+- Evidence/access/date/lineage integrity and substantive adversarial review: {{ACTUAL_CHECK}}
+- Reader clarity, adaptive useful chapters, concise context, citations/navigation: {{ACTUAL_CHECK}}
 
-## Deliverable and resources audit
+{{STAGE_DISPOSITIONS_MEANINGFUL_UNKNOWN_ATTEMPTS_IMPACTS_AND_REVISIT_TRIGGERS}}
+{{REAL_HARD_LIMITS_MEASURED_ESTIMATED_UNAVAILABLE_USAGE_AND_RECOVERY}}
+{{LINK_BUILD_AND_BEHAVIORAL_VALIDATION_ACTUALLY_RUN_WITH_LIMITS}}
 
-- Book main index, parts/chapters, semantic topic indexes and evidence links: `{{BOOK_INDEX_AND_CHECK_RESULT}}`
-- Versioned synthesis and revisions: `{{REVISION_HISTORY_LINK}}`
-- Budget allocations, actual/estimated/unavailable consumption, original human approvals, extensions: `{{LEDGER_AND_DEC_REFS}}`
-- Authorized changes to scope or plan: `{{AMENDMENT_REFS_OR_NONE}}`
-- Workspace consistency/recovery and active-state reference: `{{ACTUAL_STATE_CHECK}}`
+**Verdict:** {{READY_FOR_USER_REVIEW_OR_QUALIFIED_OR_PRECISE_BLOCKER}}
+**User acceptance:** Pending unless an actual response is recorded. Deliver and stop autonomous research; later chapter review is separate. A goal for this deliverable may complete without falsely recording acceptance.
 
-## Final release-of-research-state checklist (not skill release)
-
-- [ ] All mandatory charter questions and completion criteria audited against current approved versions.
-- [ ] All required phases/subphases have valid completion dossiers.
-- [ ] Mandatory independent red-team and consequential adjudications are complete or have charter-permitted qualified disposition.
-- [ ] No outstanding critical blocker or missing approval defeats completion.
-- [ ] Source and claim references, evidence/review states and known material dependencies checked.
-- [ ] Research book navigation, material citations and limitations verified.
-- [ ] Budget and recovery markers reconciled; no invented usage or approval.
-- [ ] Dossier written and linked, indexes/journal consistent, checkpoint **last**.
-
-**Reasoned final verdict:** `{{DO_NOT_CLAIM_COMPLETE_UNTIL_ALL_APPLICABLE_CHECKS_PASS}}`  
-**Remaining limitations and future revisit triggers:** `{{ACTUAL_CONTENT}}`  
-**Human-facing completion summary reference:** `{{LINK_IF_PRODUCED}}`
+Persist this dossier and navigation/journal before checkpoint. Missing required research/review cannot be renamed a qualified unknown. No unrequested publication/installation/outreach.

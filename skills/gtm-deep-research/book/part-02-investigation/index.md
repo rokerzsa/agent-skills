@@ -26,4 +26,4 @@
 
 ## Current boundary
 
-A successful independent red-team pass can set a justified procedural `passed`/`qualified` outcome, but never automatically changes claim evidentiary confidence or closes the subphase. Consequential unresolved disputes must be escalated. Budgets must be approved, trackable, measured/estimated correctly and within all project/phase/subphase ceilings. **Draft synthesis, criterion-verified completion and selective reopening are separately governed procedures.** They remain subject to all evidence and authorization conditions; a red-team pass or budget ledger alone never closes work.
+An actual independent source-seeking pass can justify a review verdict, never an automatic confidence upgrade. Important unresolved answers follow agreed disposition criteria; missing required work and actual hard-limit blockers still prevent readiness. Final research delivery stops for user review.

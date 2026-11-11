@@ -23,7 +23,7 @@ After explicit initialization authorization, create only these initial records, 
 | `control/conventions.md` | [Workspace conventions](../templates/workspace-conventions.md) | Authoritative local naming, link and recovery rules |
 | `knowledge/index.md` | [Knowledge index](../templates/knowledge-index.md) | Empty semantic concept index; no fake concepts |
 
-Do not create a `PRJ-...` project directory or `knowledge/K-...` concept file simply to populate examples. Create a project only after authorization and when actual research context warrants it; the charter and detailed plan have their own separate approval gates.
+Do not create project/concept records simply to populate examples. Non-destructive live workspace/project creation must be authorized, including by the consolidated agreement that names its root. No redundant charter or detailed-phase approval is needed once that agreement covers the full run.
 
 ## 3. Illustrative initial state (not a real created workspace)
 

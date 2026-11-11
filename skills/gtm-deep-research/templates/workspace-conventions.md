@@ -25,7 +25,7 @@
 - Keep evidence state, qualitative confidence, independent review, execution state, and document lifecycle distinct.
 - Track all hard ceilings, parent-child budget limits, and measured/estimated/unavailable usage.
 - A critical gap or required red-team dispute may block completion; neither budget exhaustion nor an attractive report justifies closure.
-- Reopening material findings does not authorize new scope, spending, or detailed plans.
+- Reopening does not grant new subject/scope or spending; covered in-scope investigation/reviews/outline changes proceed under existing consolidated authority.
 
 ## Ordered write and recovery invariant
 

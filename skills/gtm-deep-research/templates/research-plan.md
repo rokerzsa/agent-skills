@@ -1,110 +1,27 @@
-# Progressive Research Plan — {{PROJECT_TITLE}}
+# Full Research Plan — {{PROJECT_TITLE}}
 
-> **TEMPLATE / NOT APPROVED.** This document contains two **separate approval objects**: the high-level phase outline and the immediate detailed phase/subphase plan. Charter approval alone authorizes neither. An immediately detailed plan may be approved together with an explicitly attached research contract; the high-level plan still requires its own approval.
+**Agreement / version / actual decision:** {{AGREEMENT_AND_AUTHORIZATION}}
+**State:** {{PROPOSED_OR_COVERED_BY_ACTUAL_APPROVAL}}
 
-| Field | Value |
-|---|---|
-| Project | `{{PRJ_ID}}` |
-| Approved charter | `{{CHARTER_VERSION_AND_APPROVAL_DECISION_OR_PENDING}}` |
-| Plan revision | `v{{PLAN_VERSION}}` |
-| Overall planning status | `proposed` |
-| Supersedes | {{PREVIOUS_PLAN_VERSION_OR_NONE}} |
+## Questions and coverage
 
-## A. High-level research phase outline
+{{STRATEGIC_QUESTIONS_COMPLETE_GTM_MODEL_CURRENT_PORTFOLIO_AND_EMERGING_DIRECTION}}
+{{DEPENDENCIES_RIVAL_EXPLANATIONS_SOURCE_AVENUES_AND_KNOWN_ACCESS_LIMITS}}
 
-**Status:** `proposed` until the human explicitly approves the phase outline.
+## Research stages
 
-**Objective and charter alignment:** {{HOW_PHASES_SATISFY_THE_CHARTER}}
+{{ADAPTIVE_STAGES_OBJECTIVES_REQUIRED_EVIDENCE_AND_REVIEW}}
+Stages organize investigation, not the final table of contents. Internal stage contracts derive authority from the consolidated agreement and can be refined within scope without routine human approval.
 
-| Phase | Objective and mandatory question groups | Dependencies | Outputs / reviews | Indicative allocation |
-|---|---|---|---|---|
-| P1 — {{TITLE}} | {{PURPOSE_AND_QUESTIONS}} | {{DEPENDENCIES_OR_NONE}} | {{EXPECTED_OUTPUTS_AND_REVIEWS}} | {{AUTHORIZED_BUDGET_OR_UNASSIGNED}} |
-| P2 — {{TITLE}} | {{PURPOSE_AND_QUESTIONS}} | {{DEPENDENCIES}} | {{EXPECTED_OUTPUTS_AND_REVIEWS}} | {{AUTHORIZED_BUDGET_OR_UNASSIGNED}} |
+## Reader deliverable
 
-**Phase ordering rationale:** {{WHY_THIS_SEQUENCE}}
+One canonical whole-company GTM chapter integrating the complete cycle and its evolution, plus deeper chapters chosen by strategic significance. {{WORKING_READING_PATH_AND_REASONS_IF_KNOWN}}
 
-**Known risks and uncertainties:** {{UPFRONT_RISKS}}
+## Execution and reviews
 
-**Permissible progressive elaboration:** Later phases receive detailed plans only when current findings justify them; high-level approved boundaries remain binding.
+{{GOAL_OBJECTIVE_EXPLICIT_START_AUTHORIZATION_OR_TOOL_UNAVAILABLE}}
+Four checks: coverage/current-state reconciliation; strategic choices/trade-offs; evidence/independent challenge; reader clarity. Return to authorized research when a check finds missing work. {{EXISTING_HARD_LIMITS_ACCESS_RULES_AND_UNKNOWN_DISPOSITIONS}}
 
-### High-level plan approval
+## Delivery and boundaries
 
-**Exact plan version presented:** {{HIGH_LEVEL_PLAN_VERSION}}
-
-**Status:** `proposed` / `approved` (only when explicit authorization is recorded)
-
-**Human approval statement:** {{ACTUAL_DECISION_OR_NONE}}
-
-**Decision ID:** `{{PRJ_ID}}:DEC-{{NNNN}}` (only if issued)
-
-**Authorization reference:** {{TRACEABLE_REFERENCE_OR_NONE}}
-
----
-
-## B. Immediate detailed phase/subphase plan
-
-**Status:** `proposed` until an explicit detailed-plan approval. Do not treat approval of Section A as approval of Section B.
-
-**Phase/subphase:** {{PHASE_AND_SUBPHASE_ID}}
-
-**Detailed-plan version:** {{DETAILED_VERSION}}
-
-**Approved high-level plan reference:** {{HIGH_LEVEL_PLAN_VERSION_AND_DECISION}}
-
-**Attached contract:** `{{PRJ_ID}}:RC-{{NNNN}}` (only if issued; attach or link the exact version)
-
-### B.1 Objective and boundaries
-
-{{IMMEDIATE_OBJECTIVE_SCOPE_EXCLUSIONS_AND_DEFINITIONS}}
-
-### B.2 Mandatory questions
-
-| Question | Expected answer/evidence condition | Criticality |
-|---|---|---|
-| {{QUESTION}} | {{EXPECTED_EVIDENCE_OR_QUALIFIED_OUTCOME}} | {{IMPACT}} |
-
-### B.3 Known dependencies and assumptions
-
-{{REQUIRED_PRIOR_RECORDS_OR_UNVERIFIED_ASSUMPTIONS}}
-
-### B.4 Investigation strategy (planned, not executed)
-
-{{PROPOSED_SOURCE_AVENUES_AND_TRIANGULATION_METHODS}}
-
-**Competing hypotheses:** {{ALTERNATIVES_OR_NONE}}
-
-**Evidence integrity constraints:** {{SOURCE_INDEPENDENCE_DIRECTNESS_TEMPORAL_LIMITATIONS}}
-
-### B.5 Review triggers and learning gates
-
-{{REQUIRED_RED_TEAM_TRIGGERS_AND_PENDING_HUMAN_REVIEWS}}
-
-### B.6 Budget and authorized exploration
-
-{{ALLOCATIONS_AND_PREAUTHORIZED_ALLOWANCES_OR_NOT_ASSIGNED}}
-
-**Unmeasurable hard ceiling:** Do not risk overrun; seek safe measurable approach or additional authorization.
-
-### B.7 Required OKF outputs and completion tests
-
-{{EVIDENCE_RECORDS_CONCEPTS_JOURNAL_BOOK_CONTRIBUTIONS}}
-
-{{COMPLETION_CONDITIONS_AND_CRITICAL_GAP_HANDLING}}
-
-### B.8 Dependency and change controls
-
-{{STOP_TRIGGERS_MATERIAL_ASSUMPTION_INVALIDATION_AND_ESCALATION}}
-
-### Immediate detailed plan + contract authorization
-
-**Exact detailed-plan and contract versions presented:** {{DETAILED_PLAN_AND_CONTRACT_IDENTITIES}}
-
-**Status:** `proposed` / `approved` (only after an actual human decision)
-
-**Human decision:** {{ACTUAL_STATEMENT_OR_NONE}}
-
-**Decision ID / authorization reference:** {{QUALIFIED_DECISION_AND_EVIDENCE_OR_NONE}}
-
-**Contract match check:** {{CONFIRM_WITHIN_APPROVED_CHARTER_AND_PLAN_OR_BLOCKER}}
-
-**Next authorized action:** Persist valid approvals and checkpoint, then verify the [authorized investigation start gate](../references/investigation-execution.md) before any substantive source investigation. Red-team completion requires the independent documented [review procedure](../references/red-team-and-adjudication.md). Project closure is governed by a separate [charter-level audit](../references/completion-and-acceptance.md), never by the plan alone.
+Stop after internally reviewed, validated, review-ready delivery. User acceptance is separate; chapter-by-chapter review can follow. Request decisions only for essential missing input, actual objective/subject expansion, hard-limit change or uncovered paid/outreach/external actions. {{ACTUAL_APPROVAL_REFERENCE_OR_PROPOSED}}

@@ -29,7 +29,7 @@
 ### Exhaustion or escalation disposition
 
 **Why further investigation is unlikely to add material evidence (only if applicable):** {{EVIDENCE_BASED_EXPLANATION}}  
-**Critical gap escalation / required human approval:** {{ACTUAL_DECISION_REF_OR_PENDING}}  
+**Important unknown disposition / essential user decision only if agreed criteria cannot resolve it:** {{DISPOSITION_OR_ACTUAL_DECISION_REFERENCE}}
 **Downstream effect and selective pauses:** {{IMPACT}}  
 **Permitted narrow conclusion or qualification:** {{EVIDENCE_SUPPORTED_LIMITATION}}  
 **Revisit triggers:** {{NEW_ARCHIVE_CONFIRMATION_CONTRADICTION_ETC}}  

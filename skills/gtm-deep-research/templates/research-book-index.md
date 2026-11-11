@@ -1,24 +1,13 @@
-# {{RESEARCH_BOOK_TITLE}}
+# {{BOOK_TITLE}}
 
-{{INTRODUCE_THE_COMPANY_WHAT_IT_DOES_AND_THE_BUSINESS_JOURNEY_THE_BOOK_EXPLAINS}}
-{{EXPLAIN_NECESSARY_INDUSTRY_CONTEXT_FOR_THE_INTENDED_READER}}
+{{COMPANY_CONTEXT_PURPOSE_SCOPE_AND_RESEARCH_CUTOFF}}
 
-{{BRIEF_SCOPE_AND_READER_RELEVANT_DRAFT_OR_UNCERTAINTY_NOTICE}}
+## Read the research
 
-## Read the case study
+[The complete company GTM system]({{CANONICAL_OVERVIEW_PATH}})
 
-<!-- Link real chapters only. Use the approved outline; no empty placeholder chapters. -->
-1. **{{PART_TITLE}}** — [Part overview]({{RELATIVE_PART_INDEX_PATH}})
-   - [{{CHAPTER_TITLE}}]({{RELATIVE_CHAPTER_PATH}})
+{{REAL_DEEP_DIVE_LINKS_CHOSEN_FROM_STRATEGIC_FINDINGS_WITH_REASONS_FOR_READING_ORDER}}
 
-## {{OPTIONAL_READER_GUIDE}}
+<!-- No fixed number of chapters/parts and no automatic phase-to-chapter mapping. Only useful part indexes/appendices. Public notes and included reader pages only; operational records and archives remain outside publication. -->
 
-{{EXPLAIN_READING_ORDER_OR_RECURRING_TERMS_ONLY_WHEN_HELPFUL}}
-
-<!-- AUTHORING NOTES — remove from published output:
-Explain the company before evidence terminology. Keep charter IDs, approval status,
-budgets, review badges, skill procedures and internal registries in the project workspace.
-Provide public source links or included reader-facing notes through the chapters.
-Use historical timeline, glossary, sources or other appendices only when useful.
-Record version, approved scope, evidence mappings and completion state in the existing
-workspace records. A readable book does not itself establish research completion. -->
+{{BRIEF_MATERIAL_LIMITS_AND_REVIEW_STATUS_WITHOUT_INTERNAL_GOVERNANCE_DUMP}}

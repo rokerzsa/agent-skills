@@ -1,148 +1,40 @@
-# Research Charter — {{PROJECT_TITLE}}
+# Consolidated Execution Agreement — {{PROJECT_TITLE}}
 
-> **TEMPLATE / NOT APPROVED.** A filled draft remains `proposed` until the human explicitly approves the identified version and the decision is durably recorded in an authorized OKF workspace. Approval of this charter does **not** approve its high-level or immediate detailed plans.
+> Proposal until the user's actual approval is recorded. This one approval covers the charter, full plan and covered internal contracts; do not ask separately for phases.
 
-| Field | Value |
-|---|---|
-| Project ID | `{{PRJ_ID}}` |
-| Charter version | `v{{N}}` |
-| Status | `proposed` |
-| Prepared from | `{{DISCOVERY_BRIEF_REFERENCE_OR_UNRECORDED}}` |
-| Approval decision | `not yet approved` |
-| Supersedes | `{{PRIOR_CHARTER_VERSION_OR_NONE}}` |
+**Version / project / decision:** {{VERSION_PRJ_AND_ACTUAL_DEC_OR_PROPOSED}}
 
-## 1. Motivation and context
+## Objective and audience
 
-**Why investigate?** {{WHY_THIS_RESEARCH_MATTERS}}
+{{MOTIVATION_PURPOSE_EXISTING_KNOWLEDGE_READER_AND_DEPTH}}
 
-## 2. Research objectives
+## Scope and strategic questions
 
-**Primary objective:** {{OUTCOME_OR_UNDERSTANDING}}
+{{SUBJECT_PRODUCTS_REGIONS_CUTOFF_EXCLUSIONS_AND_QUESTIONS}}
+{{HISTORICAL_CURRENT_EMERGING_COVERAGE_OR_EXPLICIT_HISTORICAL_ONLY_BOUNDARY}}
+{{ASSUMPTIONS_ALTERNATIVES_AND_MATERIAL_CHANGE_QUESTIONS}}
 
-**Secondary objectives, if any:** {{SECONDARY_OBJECTIVES_OR_NONE}}
+## Research and output plan
 
-**Decisions this may inform, without predetermining them:** {{DECISION_CONTEXT}}
+[Full execution plan]({{PLAN_PATH}}); covered internal contracts {{REFERENCES_OR_TO_BE_DERIVED_WITHIN_SCOPE}}.
+One canonical whole-company GTM chapter plus deeper chapters selected from findings; no fixed chapter count or phase-to-chapter mapping. Coverage follows [strategy guidance](../references/strategy-and-current-state.md).
 
-## 3. Existing knowledge and misconceptions
+{{SOURCE_METHODS_EVIDENCE_STANDARDS_REVIEW_REQUIREMENTS_AND_OUTPUT_FORMAT}}
 
-**What is already known or believed:** {{KNOWN_OR_BELIEVED}}
+## Constraints and autonomy
 
-**What is unverified or contested:** {{UNVERIFIED_BACKGROUND}}
+**Workspace/root and non-destructive initialization:** {{EXACT_ROOT_AND_PERMISSION}}
+**Actual hard limits / access:** {{USER_ASSIGNED_LIMITS_OR_UNASSIGNED_NO_ARBITRARY_SOURCE_CAP}}
+**External actions:** {{PAID_ACCESS_OUTREACH_PUBLISHING_AUTHORITY_OR_EXCLUSIONS}}
+In-scope discovery, phase progression, hypothesis revisions, outline changes and internal reviews proceed autonomously. Ask only at real decision/authority boundaries.
 
-**Source of prior beliefs, where applicable:** {{EVIDENCE_OR_HUMAN_REPORT}}
+## Unknowns and review-ready criteria
 
-## 4. Subject boundaries
+{{ALLOWED_INVESTIGATED_QUALIFICATIONS_VERSUS_INDISPENSABLE_ANSWERS}}
+Four internal checks: complete/current coverage, strategic depth, evidence/adversarial review and reader/editorial quality. Missing work is not an acceptable unknown. Deliver ready for user review and stop autonomous research; acceptance remains pending. {{OPTIONAL_LEARNING_AND_LATER_CHAPTER_REVIEW_PREFERENCE}}
 
-| Boundary | Included | Excluded or uncertain |
-|---|---|---|
-| Companies/actors | {{ENTITIES}} | {{EXCLUDED_ENTITIES}} |
-| Period | {{PERIOD}} | {{OUT_OF_PERIOD}} |
-| Geography | {{REGIONS}} | {{OTHER_REGIONS}} |
-| Product/customer types | {{PRODUCT_AND_CUSTOMER_TYPES}} | {{EXCLUSIONS}} |
-| Unit of analysis | {{COMPANY_PRODUCT_USER_CUSTOMER_DEFINITION}} | {{AMBIGUITIES}} |
+## Combined approval and goal request
 
-## 5. Required depth
-
-{{DEPTH_REQUIREMENTS_AND_CAUSAL_GRANULARITY}}
-
-Specify whether the work calls for chronological reconstruction, causal inference, comparative investigation, or transferable strategic lessons. Requested report length is **not** a substitute for research depth.
-
-## 6. Critical questions and priorities
-
-| Question ID | Research question | Criticality / priority | Accepted uncertainty, if any |
-|---|---|---|---|
-| Q-01 | {{QUESTION}} | {{CRITICAL_OR_PRIORITY}} | {{QUALIFICATION_OR_NONE}} |
-
-Add rows only when warranted. Separate first *users*, first *paying customers*, first *contracts*, and first *revenue* when relevant; do not assume these events are identical.
-
-## 7. Assumptions and alternatives
-
-| Assumption / hypothesis | Provisional status | Competing explanation or falsification avenue |
-|---|---|---|
-| {{ASSUMPTION}} | `unverified` | {{ALTERNATIVE}} |
-
-Do not mark a hypothesis as a verified historical claim because the human accepts it as a starting assumption.
-
-## 8. Evidence standards
-
-**Relevant source classes:** {{CONTEMPORARY_PRIMARY_SECONDARY_RETROSPECTIVE_OR_OTHER}}
-
-**Corroboration and independence expectations:** {{CLAIM_SPECIFIC_RULES}}
-
-**Confidence and contradiction policy:** Qualitative high/medium/low/unverified with rationale; preserve contested evidence and separate the verification of a report from the truth of its historical assertion.
-
-**Acceptable evidence-exhausted limitations:** {{WHICH_QUALIFIED_OUTCOMES_ARE_ALLOWED}}
-
-**Unacceptable shortcuts:** No fabricated access, source counts as a proxy for certainty, or premature causal conclusions.
-
-## 9. Constraints and budgets
-
-**Time, effort, cost or source exploration allocations:** {{CONFIGURED_DIMENSIONS_OR_NOT_ASSIGNED}}
-
-**Preauthorized extensions:** {{EXPLICIT_ALLOWANCE_OR_NONE}}
-
-**Access and ethical constraints:** {{ACCESS_CONSTRAINTS}}
-
-**Important dependencies:** {{DEPENDENCIES}}
-
-Unspecified usage is not zero; estimated usage is not measured usage or spending authority. Use the [budget management procedure](../references/research-budget-management.md) to record authorized allocations, measured/estimated/unavailable consumption, and extensions.
-
-## 10. Deliverables
-
-**Authoritative knowledge:** Source provenance, claim-level evidence, synthesized OKF concepts and auditable research records.
-
-**Reader-facing synthesis:** {{BOOK_PARTS_CHAPTERS_DEPTH_AUDIENCE}}
-
-**Indexes and appendices:** {{REQUIRED_NAVIGATION_AND_REFERENCE_INDEXES}}
-
-**Learning outputs:** {{IF_ANY}}
-
-The final research book must be Markdown-first, Docusaurus-style, properly chaptered and evidence-linked. The standalone skill can author and selectively revise a **draft** evidence-linked book from authorized records and offer learning checkpoints. Project completion and reopening follow the independent [completion](../references/completion-and-acceptance.md) and [dependency impact](../references/dependency-impact-and-reopening.md) rules, not the act of drafting a book.
-
-## 11. Human involvement and review gates
-
-**Expected participation:** {{LEARNING_CHECKPOINTS_REVIEW_INTENSITY}}
-
-**Mandatory approvals:** Charter, high-level plan, immediate detailed plan; consequential changes and unapproved budget extensions.
-
-**Special decision or learning checkpoints:** {{SPECIAL_GATES_OR_NONE}}
-
-Routine human learning is distinct from approval and should be nonblocking where appropriate.
-
-## 12. Objective completion criteria
-
-| Criterion | How it will be verified | Permitted qualified limitation |
-|---|---|---|
-| {{CRITERION}} | {{EVIDENCE_OR_REVIEW}} | {{LIMITATION_OR_NOT_PERMITTED}} |
-
-Completion requires contract and charter checks plus mandatory reviews; budget exhaustion alone never establishes completion. Critical blockers may not be quietly closed as noncritical.
-
-## 13. Explicit exclusions and non-goals
-
-{{OUT_OF_SCOPE_TOPICS_METHODS_OR_OUTPUTS}}
-
-## 14. Human-approved subject-specific extensions
-
-| Extension | Rationale | Scope/budget effect | Approval reference |
-|---|---|---|---|
-| {{EXTENSION_OR_NONE}} | {{WHY}} | {{EFFECT}} | `pending / {{DECISION_ID}}` |
-
-No unapproved consequential additions to the discovery framework or charter.
-
-## 15. Open questions and accepted uncertainty
-
-{{KNOWN_UNKNOWNS_ACCEPTED_LIMITATIONS_AND_REVISIT_TRIGGERS}}
-
-## 16. Approval and revision record
-
-**Current status:** `proposed` until supported by actual authorization.
-
-**Human decision statement:** {{EXACT_APPROVAL_OR_NONE}}
-
-**Qualified decision ID:** `{{PRJ_ID}}:DEC-{{NNNN}}` **only if issued**.
-
-**Authorization reference:** {{TRACEABLE_USER_STATEMENT_OR_NONE}}
-
-**Amendment summary:** {{CHANGES_AND_DOWNSTREAM_EFFECTS_OR_NONE}}
-
-**Next separate approval gate:** High-level phase plan. A charter approval does **not** approve plan execution.
+**Proposed user decision:** Approve this agreement and full plan, including covered internal contracts, the stated root/limits and autonomous execution through review-ready delivery; explicitly authorize starting the research goal when available.
+**Actual response / date / decision:** {{EXACT_RESPONSE_OR_NOT_YET_APPROVED}}
+Never fabricate goal authorization, acceptance or approval of a later document version. Existing project permissions and caps must be reconciled rather than silently reset.

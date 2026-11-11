@@ -1,3 +1,5 @@
+> **Consolidated-run rule:** This is an internal stage assessment under the existing execution agreement, not a fresh human approval gate. Investigated unknowns follow the agreed disposition policy; missing required work still blocks readiness. Final delivery stops for user review.
+
 # Subphase Completion Dossier — {{PRJ_ID}} / {{SUBPHASE_ID}}
 
 > **TEMPLATE — NOT COMPLETION.** Use only with an authorized initialized workspace and actual persisted evidence. Follow [completion protocol](../references/completion-and-acceptance.md). A draft or unchecked dossier cannot close a subphase.

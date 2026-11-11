@@ -1,49 +1,24 @@
-# Chapter {{CHAPTER_NUMBER}} — {{CHAPTER_TITLE}}
+# {{STRATEGIC_QUESTION_OR_CHAPTER_TITLE}}
 
-<!-- AUTHORING TEMPLATE: remove instructions and unused placeholders from the published chapter.
-Use the approved reader and scope. Adapt the structure to the company's story rather than treating every heading below as mandatory.
-Internal journey/evidence maps, source-access metadata and approval mechanics stay outside the main prose. -->
+<!-- Strategic deep dive; not a mandatory narrative layout. Context supports analysis. Chapter count and sections follow findings, not phase numbering. Keep complete GTM integration in the canonical overview and link it here. -->
 
-[Book contents]({{RELATIVE_BOOK_INDEX}}) · [Part index]({{RELATIVE_PART_INDEX}})
+[Company GTM overview]({{OVERVIEW_PATH}}) · [Book contents]({{INDEX_PATH}})
 
-{{OPENING_THAT_INTRODUCES_THE_COMPANY_CUSTOMER_PROBLEM_AND_CENTRAL_QUESTION}}
+{{BRIEF_CONTEXT_AND_MAIN_ANALYTICAL_ANSWER}}
 
-## {{STARTING_PROBLEM_AND_PRODUCT}}
+## {{IMPORTANT_DECISION_OR_STRATEGIC_CHANGE}}
 
-{{EXPLAIN_THE_CUSTOMERS_ALTERNATIVES_AND_ACTUAL_PRODUCT_WORKFLOW_IN_FAMILIAR_WORDS}}
-{{CONNECT_USERS_BUYERS_PAYERS_ACQUISITION_AND_ECONOMICS_WHERE_KNOWN}}
-{{SHORT_SOURCE_LINK_OR_NUMBERED_NOTE}}
+{{BEFORE_AFTER_CUSTOMER_OFFER_POSITIONING_WORKFLOW_CHANNEL_SALES_AND_MONEY}}
+{{TRIGGER_STATED_REASONS_ALTERNATIVES_TRADEOFFS_EXECUTION_AND_RESULTS_OR_UNKNOWNS}}
+{{EXPLICIT_GTM_MECHANISM_WITH_SUPPORT_AND_CREDIBLE_RIVAL_EXPLANATIONS}}
 
-## {{A_MATERIAL_CHANGE_IN_THE_BUSINESS}}
+## {{FURTHER_ANALYSIS_ONLY_WHERE_IT_ADDS_VALUE}}
 
-{{CONNECT_PRIOR_SITUATION_PRESSURE_OR_OPPORTUNITY_COMPANY_RESPONSE_AND_OUTCOME}}
-{{DISTINGUISH_STATED_REASONS_FROM_SUPPORTED_AUTHOR_INTERPRETATION}}
-{{EXPLAIN_THE_INSIGHT_THAT_FOLLOWS_FROM_THIS_CHANGE_WITHOUT_GENERIC_ADVICE}}
-{{BRIEF_MATERIAL_UNCERTAINTY_WHERE_NEEDED_AND_LINK_TO_DETAILED_NOTE}}
-
-<!-- Add subsequent sections only where they advance the chapter's explanation.
-Integrate later evidence into the relevant historical stage. Do not append source-by-source updates. -->
-
-## {{WHAT_THIS_STAGE_TEACHES_IF_USEFUL}}
-
-{{A_FEW_DEVELOPED_CASE_SPECIFIC_LESSONS_WITH_REASONS_CONDITIONS_AND_LIMITS}}
-{{NO_PERSONALIZED_BUSINESS_COMPARISON_UNLESS_SEPARATELY_REQUESTED}}
+{{CURRENT_OR_EMERGING_IMPLICATIONS_IF_RELEVANT_WITH_FACT_PLAN_INTERPRETATION_DISTINCT}}
+{{CASE_DERIVED_LESSONS_CONDITIONS_AND_LIMITS_IF_USEFUL}}
 
 ## Sources and notes
 
-<!-- Prefer public original links and/or published note pages. Preserve the canonical
-SRC/CLM/K/RT mapping here or in workspace records. Do not link the website to excluded files.
-Each material uncertainty must still be apparent in the discussion it affects. -->
+{{PUBLIC_OR_INCLUDED_SOURCE_LINKS_WITH_LINEAGE_AND_CONSEQUENTIAL_UNCERTAINTY}}
 
-### Note 1
-
-{{PUBLIC_SOURCE_LINKS_CANONICAL_RECORD_MAPPING_AND_RELEVANT_SOURCE_LIMITATIONS}}
-
-### Note 2
-
-{{SUPPORTING_AND_CONTRADICTING_ACCOUNTS_WITH_THE_BOUNDED_INTERPRETATION}}
-
-<!-- Review before delivery:
-Can the intended reader explain the business and each material transition without reading these notes?
-Can the author trace material statements to evidence without overstating reasons or outcomes?
-Keep lifecycle/revision details in workspace records; use a short reader-facing draft notice where useful. -->
+<!-- Review coverage, strategic depth, evidence and reader clarity. Product mention alone fails. Avoid repeated histories, generic lessons and methodological caveats. No personalization without separate request. -->
