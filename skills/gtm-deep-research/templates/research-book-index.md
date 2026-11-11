@@ -1,13 +1,19 @@
 # {{BOOK_TITLE}}
 
-{{COMPANY_CONTEXT_PURPOSE_SCOPE_AND_RESEARCH_CUTOFF}}
+{{ACCESSIBLE_COMPANY_AND_INDUSTRY_CONTEXT}}
 
-## Read the research
+{{WHY_THIS_CASE_MATTERS_AND_THE_CENTRAL_QUESTION}}
 
-[The complete company GTM system]({{CANONICAL_OVERVIEW_PATH}})
+{{PURPOSE_INTENDED_UNDERSTANDING_SCOPE_AND_CUTOFF}}
 
-{{REAL_DEEP_DIVE_LINKS_CHOSEN_FROM_STRATEGIC_FINDINGS_WITH_REASONS_FOR_READING_ORDER}}
+## {{HOW_THE_BOOK_DEVELOPS_ITS_ARGUMENT}}
 
-<!-- No fixed number of chapters/parts and no automatic phase-to-chapter mapping. Only useful part indexes/appendices. Public notes and included reader pages only; operational records and archives remain outside publication. -->
+{{CONNECTED_READING_PATH_EXPLAINING_HOW_MEANINGFUL_SECTIONS_BUILD_ON_EACH_OTHER}}
 
-{{BRIEF_MATERIAL_LIMITS_AND_REVIEW_STATUS_WITHOUT_INTERNAL_GOVERNANCE_DUMP}}
+[{{CANONICAL_WHOLE_COMPANY_GTM_CHAPTER_TITLE}}]({{CANONICAL_OVERVIEW_PATH}})
+
+{{REAL_DEEP_DIVE_LINKS_IN_THE_ARGUMENT_ORDER}}
+
+{{BRIEF_CONSEQUENTIAL_LIMITS_IF_NEEDED_WITH_DETAILS_IN_RELEVANT_NOTES}}
+
+<!-- Develop an introduction, not just a catalogue. Adapt length and headings to reader needs. No fixed chapter/part count. Avoid internal review/governance metadata in reader prose; operational records and archives remain outside publication. -->

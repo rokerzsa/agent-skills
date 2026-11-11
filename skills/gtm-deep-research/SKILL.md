@@ -7,6 +7,20 @@ description: Research a company's historical and current go-to-market strategy, 
 
 Produce strategy-led analysis in plain language: explain choices, alternatives, execution, trade-offs and outcomes. Use narrative to supply context and connections, with evidence supporting the analysis.
 
+## Load guidance for the active task
+
+Read the checkpoint and essential rules below first; load supporting detail only as needed. For a focused revision, reuse existing scope and evidence instead of restarting intake.
+
+| Task | Relevant guidance |
+|---|---|
+| New study or missing user decision | Discovery, authorization and planning linked below |
+| Company investigation or pivot analysis | Strategy/current-state, investigation and evidence linked below |
+| Book structure or navigation | [Architecture](references/research-book-architecture.md) |
+| Drafting or chapter review | [Synthesis and four reviews](references/research-synthesis-and-lessons.md), then [authoring/comprehension](references/book-authoring-and-reader-review.md) |
+| Resume, recovery or delivery | Recovery and completion linked below |
+
+The specification book and historical amendments are authoritative references for conflicts or design questions; do not load all chapters for a routine prose edit. Templates are optional scaffolding, not reader-facing layouts.
+
 ## Intake and execution authority
 
 1. Read the user's request and existing project checkpoint. For substantial research, perform bounded reconnaissance, then challenge consequential ambiguities upfront using the [discovery checklist](references/goal-discovery-and-charter.md). Reuse answers already given; unknown company facts are research questions, not questions the user must answer.
@@ -23,7 +37,7 @@ Produce strategy-led analysis in plain language: explain choices, alternatives, 
 
 ## Write, review and deliver
 
-9. Produce **one canonical whole-company GTM chapter**, integrating the complete cycle and its evolution, plus strategically justified deeper chapters. Research stages are not a table of contents; there is no fixed number of chapters or parts. [Architecture](references/research-book-architecture.md) · [Synthesis](references/research-synthesis-and-lessons.md).
+9. Produce **one canonical whole-company GTM chapter**, integrating the complete cycle and its evolution, plus strategically justified deeper chapters. Develop a substantive introduction and a cumulative argument: each chapter advances understanding and leads naturally to the next. Research stages are not a table of contents; there is no fixed number of chapters or parts. [Architecture](references/research-book-architecture.md) · [Synthesis](references/research-synthesis-and-lessons.md).
 10. Perform coverage, strategic-depth, evidence and reader/editorial reviews. Return autonomously to in-scope research when a review exposes missing work. Keep source details in readable notes; material uncertainty remains clear in the relevant discussion. Derive conditional case lessons; never import the user's business without a separate explicit request.
 11. Deliver the internally reviewed book as **ready for user review**, with limits, validation and unresolved questions disclosed; then stop autonomous research. After delivery, reopening may flag encountered evidence but resumes research only on a user review/revision request or explicit continuing authorization. Do not claim user acceptance. The user may review chapters step by step afterward. Learning checkpoints are nonblocking and deferred by default during autonomous execution. [Final audit](references/completion-and-acceptance.md) · [Human review](references/human-learning.md).
 12. Allocate stable IDs durably before use; persist substantive records, budgets/reviews, navigation and journal; validate; advance the authoritative project checkpoint last. Preserve versions; recover inconsistent writes before continuing. [Record/recovery rules](references/recovery-and-consistency.md).

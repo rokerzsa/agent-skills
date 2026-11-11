@@ -8,7 +8,13 @@ Include one canonical **whole-company GTM chapter**, placed early enough to orie
 
 Choose deeper chapters from the strategically important questions, pivots, experiments and current direction actually found. No fixed count, mandatory parts or per-channel chapter taxonomy. A company with overlapping motions may require a comparison rather than one chapter per chronological era. Research phases and the fourteen chapters of this skill specification are not a company-book outline.
 
-The book index introduces the company, scope/cutoff and reading path. Add part indexes or appendices only when useful. Keep one canonical explanation of a mechanism and link rather than repeat it. The overview integrates; deep dives substantiate choices, alternatives and evidence rather than repeat the overview.
+The book opens with a substantive introduction: enough company and industry context for the agreed reader, why the case matters, its central inquiry, what understanding the book intends to build, scope/cutoff and how its sections advance that inquiry. A contents list cannot do this work. Keep internal review status and operational metadata outside the opening argument.
+
+Before drafting, map the argument across chapters: the question inherited from prior discussion, the new understanding established here and the unresolved question that makes the next chapter necessary. Choose groupings from these relationships; do not impose chronological eras or a universal layout. The overview integrates the system after reader orientation; deep dives develop and test its important choices without repeating the full model. A canonical explanation avoids redundant treatment, but hyperlinks do not replace enough prose to connect ideas.
+
+Give each chapter a distinct explanatory responsibility. Necessary context stays with its argument; details whose main significance belongs elsewhere move to that treatment, with a brief bridge where useful. Apply the [authoring checks](book-authoring-and-reader-review.md) without turning these responsibilities into a fixed taxonomy.
+
+Part pages must orient a meaningful group of chapters and explain their relationship. Avoid one-sentence landing pages that add stops without understanding. Align the introduction, contents, sidebar and previous/next sequence with the intended argument; preserve old routes where possible.
 
 ## Autonomous structure and honest maintenance
 

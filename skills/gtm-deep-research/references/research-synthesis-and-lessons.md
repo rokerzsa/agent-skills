@@ -10,11 +10,11 @@ Build the whole-company GTM model and compare important changes using the strate
 
 Require one canonical whole-company GTM overview; choose deeper questions/chapters after understanding the findings. Historical stages are research organization, not mandatory chapter boundaries. Reconcile current/emerging coverage before finalizing.
 
-## Write for the agreed reader
+## Author and review the explanation
 
-Introduce the company, product workflow and necessary industry context briefly. Explain concrete actors and work before abstractions. State the strategic question and analytical answer early, then support it with relevant context, comparisons and evidence. Use sections, tables or diagrams when they clarify choices; no narrative/analysis percentage or fixed headings are required. Chronology is useful only where it explains the decision.
+Follow [authoring and reader comprehension](book-authoring-and-reader-review.md) for reader knowledge, concrete workflows, chapter boundaries, section progression and proportional uncertainty. That reference owns prose-level checks; keep analytical coverage here and structure in [architecture](research-book-architecture.md).
 
-Choose detail by its effect on understanding the business, decision, mechanism or result. Avoid repeated mini-histories, generic lessons, repeated methodological caveats and trivia. Offer interpretation where supported, with consequential alternatives and limits; do not let absence of revenue proof prevent analysis of a documented strategic bet. Never invent scenes, motives, dialogue or causal bridges.
+For the canonical overview, trace the customer's need through choice, discovery, purchase, useful adoption and continued value. Distinguish acquisition from expansion and explain commercial evolution using the [strategy procedure](strategy-and-current-state.md). Adapt the order to the business.
 
 ## Evidence and lessons
 
@@ -27,6 +27,6 @@ Derive specific conditional lessons from the case's decisions and mechanisms. Do
 - Coverage: complete company GTM cycle, material products/buyers/pivots and latest-state reconciliation; unknowns distinguished from unperformed work.
 - Strategic depth: choices, alternatives, trade-offs, execution, GTM effects and outcomes/unknowns are explicit; mere product mentions fail.
 - Evidence: trace material claims, date/metric definitions and access; independently challenge major conclusions; distinguish interpretation from motive and causality.
-- Reader/editorial: clear orientation, plain language, concise context, adaptive useful chapters, no source dump or excessive retelling.
+- Reader/editorial: apply the [comprehension checks](book-authoring-and-reader-review.md#review-comprehension-not-ingredient-presence) to the actual main text. Identify and repair missing reader knowledge, workflow steps, chapter detours and broken transitions. Check purpose, cumulative argument and navigation. Do not treat the presence of headings or a transition sentence as proof of coherence.
 
 Use an introduction plus a major-change section as an early pilot for substantial authoring changes, then review the complete book. If a review exposes in-scope missing research, investigate and revise without new routine approval. Preserve material prior versions, update indexes/links and checkpoint last. [Final delivery](completion-and-acceptance.md).

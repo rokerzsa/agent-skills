@@ -8,6 +8,12 @@ Explain the target customer, user, buyer/payer, problem and alternatives; positi
 
 Keep one working analysis section in the plan or synthesis, linked to SRC/CLM/RT; do not introduce a competing registry or record namespace. Publish the integrated model in one canonical whole-company GTM chapter. Deeper chapters develop strategic questions without scattering the only explanation of the cycle across them.
 
+## Keep commercial mechanisms distinct
+
+Separate how a buyer discovers the supplier, why it chooses the offer, how it evaluates and purchases, what makes the product usable, and why it renews or expands. Community participation, distribution partners and integrations can play different roles; classify each by demonstrated function rather than listing them all as acquisition channels. A useful feature or an available audience is not evidence of buyer origination. Separate new-customer routes from expansion within existing accounts, while explaining their connections and overlaps.
+
+In the canonical overview, explain material changes in the commercial model across periods: which customer work, purchase unit and selling/delivery relationship changed, and which offers coexisted. A current portfolio table cannot substitute for this explanation. Keep detailed history in deep dives; choose the order that makes the model understandable rather than prescribing a universal funnel.
+
 ## Investigate material changes
 
 Compare before/after: customer/problem, offer/workflow, positioning, acquisition/sales motion, monetization and strategic role. Seek the trigger, actors' stated motives, alternatives, trade-offs, execution, evidence of results and remaining unknowns. Explain why the choice could affect the business, not merely what launched. Product mention or a source link alone does not satisfy strategic analysis.
