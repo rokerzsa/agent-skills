@@ -6,15 +6,15 @@
 
 ## Agreed objective audit
 
-| Question / criterion | Evidence / review chain | Answer or investigated qualification | Remaining impact / blocker |
+| Question / criterion | Evidence / review chain | Answer demonstrated by actual book passage, or investigated qualification | Remaining impact / blocker |
 |---|---|---|---|
 | {{CRITERION}} | {{SRC_CLM_K_RT}} | {{ACTUAL_OUTCOME}} | {{LIMIT_OR_NONE}} |
 
 ## Four final checks
 
 - Complete GTM system in one canonical chapter; material historical/current/emerging coverage reconciled: {{ACTUAL_CHECK}}
-- Choices, alternatives, trade-offs, mechanisms, execution and results/unknowns analyzed: {{ACTUAL_CHECK}}
-- Evidence/access/date/lineage integrity and substantive adversarial review: {{ACTUAL_CHECK}}
+- Central reader questions answered through connected decision explanations, with passages and reasons rather than chapter-name assertions: {{ACTUAL_CHECK}}
+- Material facts reconciled from inspected passages through records to book; evidence/access/date/lineage integrity and substantive adversarial review: {{ACTUAL_CHECK}}
 - Reader clarity, adaptive useful chapters, concise context, citations/navigation: {{ACTUAL_CHECK}}
 
 {{STAGE_DISPOSITIONS_MEANINGFUL_UNKNOWN_ATTEMPTS_IMPACTS_AND_REVISIT_TRIGGERS}}

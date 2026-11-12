@@ -10,6 +10,8 @@ Build the whole-company GTM model and compare important changes using the strate
 
 Require one canonical whole-company GTM overview; choose deeper questions/chapters after understanding the findings. Historical stages are research organization, not mandatory chapter boundaries. Reconcile current/emerging coverage before finalizing.
 
+Develop a supported explanation of the decision sequence, not a retrospective master plan. Connect the [material-decision reconstruction](strategy-and-current-state.md#investigate-material-changes) to the commercial system. Explain a probable rationale when evidence permits: identify its basis, credible alternatives and what would distinguish them. Missing causal ROI or private deliberations limits the conclusion; it does not erase observable commitments, execution or useful conditional interpretation. Repeated “benefits unproven” statements cannot substitute for explaining the bet.
+
 ## Author and review the explanation
 
 Follow [authoring and reader comprehension](book-authoring-and-reader-review.md) for reader knowledge, concrete workflows, chapter boundaries, section progression and proportional uncertainty. That reference owns prose-level checks; keep analytical coverage here and structure in [architecture](research-book-architecture.md).
@@ -24,9 +26,11 @@ Derive specific conditional lessons from the case's decisions and mechanisms. Do
 
 ## Four internal reviews
 
-- Coverage: complete company GTM cycle, material products/buyers/pivots and latest-state reconciliation; unknowns distinguished from unperformed work.
-- Strategic depth: choices, alternatives, trade-offs, execution, GTM effects and outcomes/unknowns are explicit; mere product mentions fail.
-- Evidence: trace material claims, date/metric definitions and access; independently challenge major conclusions; distinguish interpretation from motive and causality.
+- Coverage: complete company GTM cycle, material products/buyers/pivots and latest-state reconciliation; distinguish omitted available facts, incomplete extraction, unperformed work and actual evidence limits.
+- Strategic depth: answer the agreed central reader questions using only the draft and identify the passages that earn those answers. Can the reader reconstruct the consequential choices, commitments, execution, commercial mechanisms, subsequent evidence and next moves? Explain why the passages answer the question; do not merely list chapter names. A capability inventory, chronology or generic trade-off plus caveats fails when the decision remains unexplained.
+- Evidence: apply [material-fact reconciliation](source-and-claim-evidence.md#10-material-fact-reconciliation), trace claim support/access and date/metric definitions, and independently challenge major conclusions. Preserve differences between stated motive, interpretation and demonstrated causality.
 - Reader/editorial: apply the [comprehension checks](book-authoring-and-reader-review.md#review-comprehension-not-ingredient-presence) to the actual main text. Identify and repair missing reader knowledge, workflow steps, chapter detours and broken transitions. Check purpose, cumulative argument and navigation. Do not treat the presence of headings or a transition sentence as proof of coherence.
+
+Record demonstrated answers and concrete failures in existing reviews/dossier, not a new approval stage or scorecard. An investigated unknown may pass qualified when the answer remains useful and honest; factual specificity without explanation and explanation without support both fail. Passing one episode does not certify the book.
 
 Use an introduction plus a major-change section as an early pilot for substantial authoring changes, then review the complete book. If a review exposes in-scope missing research, investigate and revise without new routine approval. Preserve material prior versions, update indexes/links and checkpoint last. [Final delivery](completion-and-acceptance.md).

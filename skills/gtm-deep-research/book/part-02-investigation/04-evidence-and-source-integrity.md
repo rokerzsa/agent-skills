@@ -118,6 +118,8 @@ Stable source/claim IDs are project-scoped; `K` concepts are workspace-wide. Ind
 
 ## 4.10 Traceability to reader-facing synthesis
 
+Apply [material-fact reconciliation](../../references/source-and-claim-evidence.md#10-material-fact-reconciliation) from inspected passages through records to the book. Preserve consequential dates, amounts, scope and commitments with their definitions. Source registration alone does not prove extraction completeness. Distinguish omitted available facts and unperformed work from attempted-but-unavailable evidence and private causal limits; use existing records rather than another registry.
+
 The eventual book must allow a reader to follow a material conclusion to the underlying interpretation or claim, then to supporting and contradicting source provenance. Its narrative may be concise and coherent, but it cannot add an unsupported historical assertion for the sake of prose.
 
 A published-looking chapter cannot override a disputed evidence record. The specification itself is authoritative for **skill behavior**, not for historical facts in a company study (R-07).

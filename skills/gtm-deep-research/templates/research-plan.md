@@ -6,6 +6,7 @@
 ## Questions and coverage
 
 {{STRATEGIC_QUESTIONS_COMPLETE_GTM_MODEL_CURRENT_PORTFOLIO_AND_EMERGING_DIRECTION}}
+{{READER_OUTCOMES_AND_CONSEQUENTIAL_DECISIONS_TO_RECONSTRUCT_WITHOUT_PREDETERMINING_THE_ANSWER}}
 {{DEPENDENCIES_RIVAL_EXPLANATIONS_SOURCE_AVENUES_AND_KNOWN_ACCESS_LIMITS}}
 
 ## Research stages
@@ -20,7 +21,7 @@ One canonical whole-company GTM chapter integrating the complete cycle and its e
 ## Execution and reviews
 
 {{GOAL_OBJECTIVE_EXPLICIT_START_AUTHORIZATION_OR_TOOL_UNAVAILABLE}}
-Four checks: coverage/current-state reconciliation; strategic choices/trade-offs; evidence/independent challenge; reader clarity. Return to authorized research when a check finds missing work. {{EXISTING_HARD_LIMITS_ACCESS_RULES_AND_UNKNOWN_DISPOSITIONS}}
+Four checks: coverage/current-state reconciliation; demonstrated answers to reader questions and connected decision explanations; material-fact reconciliation/evidence/independent challenge; reader clarity. Record actual passages and failures in existing reviews, not merely topic presence. Return to authorized research when a check finds missing work. {{EXISTING_HARD_LIMITS_ACCESS_RULES_AND_UNKNOWN_DISPOSITIONS}}
 
 ## Delivery and boundaries
 

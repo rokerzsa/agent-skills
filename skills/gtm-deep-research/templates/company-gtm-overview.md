@@ -18,7 +18,9 @@
 
 ## {{MATERIAL_STRATEGIC_CHOICES_AND_CURRENT_DIRECTION}}
 
-{{KEY_PIVOTS_OR_EXTENSIONS_CHOICES_ALTERNATIVES_TRADEOFFS_EXECUTION_AND_OUTCOMES}}
+{{CONSEQUENTIAL_DECISIONS_PRIOR_CONSTRAINTS_COMMITMENTS_MECHANISMS_EXECUTION_AND_SUBSEQUENT_MOVES}}
+{{STATED_RATIONALE_VERSUS_SUPPORTED_INTERPRETATION_ALTERNATIVES_AND_OBSERVED_RESULTS}}
+<!-- Explain how the commercial model developed, not just what each business adds. Material dates/commitments must reconcile with inspected evidence; detailed transaction history belongs in a justified deep dive. Do not infer a master plan or require private ROI to discuss a supported strategic bet. -->
 {{CURRENT_PORTFOLIO_RECONCILED_AT_CUTOFF_AND_FUTURE_DIRECTION_LABELS}}
 {{LINKS_TO_DISTINCT_DEEPER_ANALYSES}}
 

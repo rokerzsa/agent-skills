@@ -16,9 +16,23 @@ In the canonical overview, explain material changes in the commercial model acro
 
 ## Investigate material changes
 
-Compare before/after: customer/problem, offer/workflow, positioning, acquisition/sales motion, monetization and strategic role. Seek the trigger, actors' stated motives, alternatives, trade-offs, execution, evidence of results and remaining unknowns. Explain why the choice could affect the business, not merely what launched. Product mention or a source link alone does not satisfy strategic analysis.
+For a consequential decision, reconstruct the prior situation and constraint/opportunity, timing and trigger, choice and resource commitment, implementation, expected commercial mechanism, subsequent evidence and relation to the next move. Compare customer/problem, offer/workflow, positioning, acquisition/sales motion, monetization and strategic role before and after. Seek actors' stated motives, credible alternatives and trade-offs. A reader should be able to explain what changed, why it mattered and what the evidence permits judging. Product mentions, dates, numbers or generic benefits alone do not satisfy this test.
+
+Use these as diagnostic questions, not mandatory headings or fields for every event. Scale depth to explanatory importance and available evidence. Separate contemporaneous rationale from retrospective explanation and analyst inference. Investigate market, competitive, financing or organizational context when it helps explain why this choice occurred then; do not invent an internal deliberation or a single master plan from a sequence of announcements.
 
 Classify rather than presume: strategic pivot, business-model or segment/channel change, expansion, product extension, rebrand, routine feature. A launch/name/funding round is not automatically a pivot. A major change may deserve deep analysis before revenue outcomes are known. Select depth by explanatory importance and uncertainty, not equal coverage for every announcement.
+
+## Reconstruct acquisitions when strategically material
+
+When buying, combining or disposing of businesses materially explains the strategy, investigate the relevant transaction history, including failed/abandoned deals and later revisions. Build on existing sources before seeking more. Establish:
+
+- The target's relevant pre-deal business, customers, capabilities and position; what gap or opportunity it addressed for the acquirer.
+- Announcement, signing, approval and completion milestones separately where available and consequential. Publication date is not a legal close; an announced transaction may fail.
+- Stake, acquired perimeter, status, disclosed consideration/currency and payment structure. Preserve the source's definition: valuation, enterprise value, consideration, M&A allocation, investment commitment and cash paid are different. Do not allocate an aggregate figure to one transaction component without evidence.
+- Stated rationale and a supported explanation of why this target at this time, including credible rival readings. Compare buying with building, partnering or remaining focused where informative; do not pretend management documented alternatives it did not disclose.
+- Intended and observed integration: autonomy, people, brands, legal structure, operations, selling and customer delivery as relevant. Trace follow-through, revised plans, friction, exits and outcomes; ownership does not establish synergy.
+
+Mark undisclosed, unverified and not-yet-investigated facts distinctly. An unavailable price need not block a useful explanation; an available material commitment must not disappear behind a blanket outcome caveat. Use a compact chronology/table where helpful and deeper treatment of consequential episodes, without equal space for every deal or mandatory acquisition chapters in other companies.
 
 ## Discover the latest state early, reconcile it late
 
@@ -32,4 +46,4 @@ Separate observable available changes, announced plans/experiments, and supporte
 
 ## Completion questions
 
-Can a reader reconstruct the complete GTM system? Are strategically material present offers and buyer types accounted for? Does each major change explain choices and GTM implications? Are future claims labeled and competing mechanisms tested? If not, return to in-scope investigation before declaring readiness. A missing material pivot is missing work; an investigated but unmeasured outcome can be an explicit qualified answer under the agreed criteria.
+Can a reader reconstruct the complete GTM system and answer the central decision questions from the book alone? Are material present offers/buyers accounted for, and do explanations connect commitments, execution and subsequent moves rather than list stages? Are interpretations and future claims labeled and competing mechanisms tested? Apply the demonstrated-answer review in [synthesis](research-synthesis-and-lessons.md#four-internal-reviews). If it fails, return to in-scope investigation or synthesis as appropriate. A missing material pivot is missing work; an investigated but unmeasured outcome can be an explicit qualified answer under the agreed criteria.

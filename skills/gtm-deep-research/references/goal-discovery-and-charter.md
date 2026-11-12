@@ -14,6 +14,7 @@ Reuse context and group related questions. Ask targeted follow-ups until consequ
 
 Confirm:
 - Audience, purpose and desired analytical depth; general-reader language by default where appropriate.
+- Translate that purpose into central questions the reader should be able to answer from the book, including consequential decisions and commercial evolution. Derive these from an adequate existing brief; ask only when a consequential preference is missing. This is not another intake questionnaire or approval stage.
 - Subject/products/regions and cutoff; history plus current/emerging direction, or an explicitly historical-only study.
 - Strategic questions and assumptions to challenge, not a predetermined success story.
 - Full-company GTM overview plus adaptive deep dives; format and publication destination where relevant.

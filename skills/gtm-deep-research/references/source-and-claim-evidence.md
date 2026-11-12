@@ -107,3 +107,13 @@ Follow the [scoped ID ledger](../templates/project-record-ids.md), [workspace co
 Explicitly distinguish **first user** vs **first paying customer**, **marketing claim** vs **contractual event**, **list price** vs **actual transaction**, **funding** vs **revenue**, **growth correlation** vs **causal effect**, and **independent corroboration** vs **repeated PR**. Preserve cohort/time definitions and pricing currency/period where applicable.
 
 Do not infer first N paying customers, revenue or contract terms from web presence, logos, anecdotes or product launches alone. If not verifiable, report the evidence limit and preserve an open gap rather than completing the desired narrative from speculation.
+
+## 10. Material-fact reconciliation
+
+For the central research questions, check consequential facts from inspected passages through SRC/CLM records to reader-facing explanation: relevant dates, amounts, units, scope, commitments, transaction status and subsequent revisions. Registering a source does not demonstrate that its useful evidence was extracted. Re-open raw passages when summaries omit a material fact or disagree; keep locators and definitions, not just a title or favorable interpretation.
+
+Distinguish available-but-omitted facts, incomplete extraction, unperformed investigation, attempted-but-unavailable evidence and genuinely private/causal limits. Repair extraction or synthesis directly; investigate missing work within scope; qualify actual evidence limits. A broad qualified gap must not conceal facts already available.
+
+Select facts by explanatory importance, not a requirement to publish every number. If omission would prevent answering a central question or misrepresent a decision's scale, terms or sequence, include it in the explanation or an appropriate reader-facing table/note. An uncertain recollection need not become a verified price to fill a field. Reconcile conflicting amounts and perimeters rather than silently choosing a convenient figure.
+
+Use existing records and reviews; no parallel fact registry, per-field ID or exhaustive extraction of irrelevant figures is required. Evidence fidelity and analytical usefulness are complementary: accurate dates and amounts do not alone explain a strategy.

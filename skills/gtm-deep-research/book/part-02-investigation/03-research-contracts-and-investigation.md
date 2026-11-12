@@ -9,3 +9,5 @@
 Verify actual agreement coverage, recovery, counters and real limits at start/resume. Map complete GTM and current offers early, investigate material changes and alternatives, inspect legitimate sources, extract honest claims, challenge major conclusions and persist meaningful findings. Contracts define covered work without separate human approval. Maintain the source/claim/concept/gap/journal chain, actual access and lineage, ID issuance before use and checkpoint last. Investigated unknowns follow agreed criteria; unperformed required work does not.
 
 Detailed governing procedure: [operational guidance](../../references/investigation-execution.md). Strategy/current-state requirements: [coverage procedure](../../references/strategy-and-current-state.md).
+
+For central reader questions, reconstruct material decisions and retain consequential commitments, dates and definitions during extraction. Apply [transaction reconstruction](../../references/strategy-and-current-state.md#reconstruct-acquisitions-when-strategically-material) when acquisitions materially explain the strategy. Use existing records; missing extraction or synthesis is not an investigated unknown.

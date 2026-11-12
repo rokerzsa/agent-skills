@@ -17,10 +17,10 @@ Unperformed required investigation/review, missed material current offers, broke
 Before delivery verify:
 1. Each agreed strategic question and the full-company GTM cycle is addressed, or explicitly investigated/qualified under agreed criteria.
 2. Material historical changes and current/emerging product/buyer portfolio are reconciled at the cutoff (or the explicit historical-only boundary).
-3. Major changes explain choices, alternatives, trade-offs, execution, commercial mechanisms and outcomes/unknowns; mentions alone fail.
+3. The [demonstrated-answer review](research-synthesis-and-lessons.md#four-internal-reviews) shows where the actual draft answers central reader questions and reconstructs consequential decisions. Inventories, generic trade-offs and repeated caveats do not satisfy strategic depth.
 4. Major conclusions have substantive adversarial searches/adjudication; causal and future claims remain calibrated.
 5. The overview and adaptive deep dives pass coverage, strategic-depth, evidence and reader/editorial reviews.
-6. Evidence IDs/lineage, relevant revisions/dependencies, budget consumption, links/build where applicable and recovery state are consistent.
+6. Material facts reconcile from inspected passages through records to the book; available omissions are repaired rather than qualified as unknowns. Evidence IDs/lineage, relevant revisions/dependencies, budget consumption, links/build where applicable and recovery state are consistent.
 7. No remaining actual authority/limit blocker defeats the objective.
 
 Persist a criterion-based dossier with scope, actual work, evidence/review links, limits, verdict, remaining unknowns and validation actually performed. Do not call static checks runtime proof or fabricate a reviewer. Update navigation/journal and checkpoint last.
