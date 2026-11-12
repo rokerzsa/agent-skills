@@ -1,6 +1,8 @@
-# Fictional Book Chapter — Enterprise Pilot Offering
+# Fictional Evidence-Linked Excerpt — Enterprise Pilot Offering
 
 [Example contents](index.md) · [Underlying semantic concept](concept.md)
+
+This excerpt illustrates a narrow evidence chain, not a complete company book or a model for its chapter layout. A full study also needs the canonical whole-company GTM chapter and strategic/current-state analysis.
 
 ## What the fictional historical record establishes
 

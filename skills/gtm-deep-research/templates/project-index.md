@@ -8,7 +8,7 @@
 ## Project navigation
 
 - `charter.md` — create from the approved charter, not an invented one
-- `plan.md` — separate high-level and immediate detailed approval gates
+- `plan.md` — full-run plan covered by the consolidated execution approval; internal stages require no routine reapproval
 - `decisions.md`
 - `active-state.md`
 - `record-ids.md`

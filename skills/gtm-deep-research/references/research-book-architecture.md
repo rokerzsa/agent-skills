@@ -1,55 +1,27 @@
-# Markdown-first research book architecture
+# Adaptive Markdown book with one complete GTM chapter
 
-[Book home](../book/index.md) · [Chapter 11](../book/part-04-outputs-lifecycle/11-book-architecture-and-navigation.md) · [Synthesis and editorial review](research-synthesis-and-lessons.md) · [Index template](../templates/research-book-index.md) · [Chapter template](../templates/research-book-chapter.md)
+[Synthesis](research-synthesis-and-lessons.md) · [Whole-company chapter](../templates/company-gtm-overview.md) · [Deep-dive template](../templates/research-book-chapter.md)
 
-The reader-facing deliverable is a coherent Markdown book explaining the researched company. Docusaurus-style means a logical reading path and stable navigation; no website build or duplicate publishing source is required. Evidence and project controls remain authoritative in the workspace.
+## Required reader structure
 
-## 1. Respect scope and audience
+Include one canonical **whole-company GTM chapter**, placed early enough to orient the reader. It explains the complete commercial cycle together and its evolution, with links to deeper treatments. Cover customer/problem, positioning, acquisition, evaluation/activation/conversion/sales, monetization, delivery/onboarding, retention/expansion and feedback/referral mechanisms where applicable. Unsupported or inapplicable elements are explicit. Do not force a linear funnel on every company.
 
-Read the approved charter, audience, writing preferences and high-level outline. Introduce the company and industry for a reader unfamiliar with them unless the user specifies a specialist audience. Use the [synthesis procedure](research-synthesis-and-lessons.md) to reconstruct the business journey before writing.
+Choose deeper chapters from the strategically important questions, pivots, experiments and current direction actually found. No fixed count, mandatory parts or per-channel chapter taxonomy. A company with overlapping motions may require a comparison rather than one chapter per chronological era. Research phases and the fourteen chapters of this skill specification are not a company-book outline.
 
-Material changes to charter scope or top-level book structure require the applicable approval. Ordinary editorial improvements, stronger introductions, revised section order and clearer explanations within the approved chapter scope do not require new research authorization. Use the user's existing instructions when deciding whether a change is authorized.
+The book opens with a substantive introduction: enough company and industry context for the agreed reader, why the case matters, its central inquiry, what understanding the book intends to build, scope/cutoff and how its sections advance that inquiry. A contents list cannot do this work. Keep internal review status and operational metadata outside the opening argument.
 
-## 2. Build a reading path
+Before drafting, map the argument across chapters: the question inherited from prior discussion, the new understanding established here and the unresolved question that makes the next chapter necessary. Choose groupings from these relationships; do not impose chronological eras or a universal layout. The overview integrates the system after reader orientation; deep dives develop and test its important choices without repeating the full model. A canonical explanation avoids redundant treatment, but hyperlinks do not replace enough prose to connect ideas.
 
-- **Book index:** Introduce the company, the journey and why it matters; give the timeframe, a concise draft/uncertainty notice and ordered real chapter links.
-- **Part indexes:** Briefly explain what the reader will understand and link chapters in reading order.
-- **Chapters:** Open with context, explain products and customer problems, connect material business changes and draw case-specific insights.
-- **Notes or appendices:** Offer source links, detailed disagreements, a timeline, glossary or other references when useful. Do not reproduce all internal registries.
+Give each chapter a distinct explanatory responsibility. Necessary context stays with its argument; details whose main significance belongs elsewhere move to that treatment, with a brief bridge where useful. Apply the [authoring checks](book-authoring-and-reader-review.md) without turning these responsibilities into a fixed taxonomy.
 
-Organize for understanding, not source arrival. Chronology often supplies the backbone, with themes helping explain a stage. Company product, customer, distribution and money changes should be connected where the evidence allows. Do not force overlapping experiments into a single clean pivot.
+Part pages must orient a meaningful group of chapters and explain their relationship. Avoid one-sentence landing pages that add stops without understanding. Align the introduction, contents, sidebar and previous/next sequence with the intended argument; preserve old routes where possible.
 
-Create only useful layers and pages. A short study may be a flat collection. Do not turn the skill specification's chapter structure into a fixed company-book taxonomy.
+## Autonomous structure and honest maintenance
 
-## 3. Keep the main narrative readable
+Within the agreed objective, add/remove/reorder/merge chapters and revise central interpretations as findings warrant; no fresh chapter-structure approval is required. Record material reasoning and preserve prior synthesis. A genuine subject/objective expansion or unapproved external action still needs authority. Do not rewrite old approvals or migrate other projects silently.
 
-Follow the narrative and evidence standards in the synthesis procedure. Use company-facing headings and readable citations. Internal record chains, confidence badges, budget events, governance status tables and authoring instructions are not the book's introduction.
+## Publication and verification
 
-Explain consequential uncertainty in the relevant discussion; keep detailed source adjudication in notes. Notes retain canonical IDs and supporting/counterevidence mappings, with public original links where available.
+Only reader-facing content belongs in Docusaurus navigation. Plans, contracts, registers, review logs and archives stay outside the published selection. Use public original URLs or included note pages; do not expose controls to fix broken links. Maintain one book source, real index/previous-next links where helpful, and stable SRC/CLM/K/RT identities independent of paths.
 
-Lessons should explain what the researched case teaches and under what conditions. Personal application to the user's business requires a separate explicit request.
-
-## 4. Publish a deliberate content selection
-
-The OKF workspace may contain the book alongside plans, claims, sources, reviews, budgets and archives. Only reader-facing content belongs in site navigation. A revision log or work plan is not automatically a chapter because it is Markdown.
-
-If a website is used, match links to its actual published content set. Link to public sources or included note pages; keep excluded operational targets in the workspace mapping. Do not expose internal records merely to silence broken-link warnings. Keep one maintained book source instead of parallel hand-edited copies.
-
-## 5. Navigation and stable references
-
-Use ordered chapter/part links and previous/next links where helpful. A canonical K/SRC/CLM/RT identity is distinct from a path and remains stable when content moves.
-
-When creating, splitting or moving a page:
-1. Update real main/part indexes and inward/outward chapter links.
-2. Preserve canonical identities and evidence mappings.
-3. Preserve meaningful prior wording or artifacts through the [revision procedure](synthesis-revisions.md).
-4. Validate file paths and, when used, published route/anchor links.
-5. Advance the authoritative project checkpoint last.
-
-## 6. Review the actual reading experience
-
-A chapter must pass both the editorial and evidence reviews in the synthesis procedure. A working table of contents and valid IDs alone cannot demonstrate coherence.
-
-Verify that context precedes unfamiliar terms, products are understandable through actual use, transitions explain changes, details serve the narrative and lessons follow from the case. Verify traceability and material uncertainty separately.
-
-Draft-book quality does not establish subphase or project completion. Apply the separate [completion](completion-and-acceptance.md) and [reopening](dependency-impact-and-reopening.md) procedures when required.
+After moves/rewrites update inward/outward links, preserve relevant versions, validate paths/routes/anchors and checkpoint last. Run all four [internal reviews](research-synthesis-and-lessons.md), then deliver [ready for user review](completion-and-acceptance.md). A working table of contents alone proves neither strategic coverage nor quality.

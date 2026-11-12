@@ -26,7 +26,7 @@ Distinguish:
 - `open` — useful evidence leads still exist;
 - `blocked` — inaccessible source, needed authorization, unsafe budget or dependency;
 - `exhausted-noncritical` — justified limited closure, with explicit unknowns and revisit triggers;
-- `escalated-critical` — unresolved consequential issue requiring decision/qualified disposition;
+- `escalated-critical` — consequential issue requiring a disposition under agreed criteria, or a user decision only if those criteria cannot resolve it;
 - `resolved` — satisfactory evidence addresses the question.
 
 These are **gap statuses** (not the claim's evidence state, review state or execution state).
@@ -46,11 +46,9 @@ Codex may close a noncritical, adequately exhausted gap **without human approval
 
 Closing a gap is **not** proving the missing answer; the associated claim cannot be upgraded without new evidence. A closed noncritical gap can be reopened if a material trigger occurs. This is a *gap-level* action only. Subphase and project closure require a separate [completion audit](completion-and-acceptance.md) and durable dossier.
 
-## 4. Critical gaps and escalations
+## 4. Important unknowns and actual blockers
 
-For a critical gap, Codex must not perform autonomous noncritical closure or invent historical certainty. Document the impacts, remaining evidence avenues and realistic alternatives, and escalate under the approved charter/plan rules. If the required answer cannot be supported, preserve a `blocked` or `escalated-critical` status and selectively pause only dependent work. Qualified completion or charter amendment requires the separate [completion rules](completion-and-acceptance.md) and applicable approval; a critical blocker cannot be reclassified to force success.
-
-When charter assumptions materially fail, note affected question/plan dependencies and propose a human-approved amendment. Do not silently change the research objective.
+Do not downgrade importance to manufacture completion. Apply the consolidated agreement's unknown policy: investigated important questions can receive an explicit qualified disposition with attempts, impact, limitations and revisit triggers. Keep a factual unknown open where appropriate; procedural disposition is not factual resolution. Missing required work, an indispensable user-defined answer or violated hard constraint still blocks readiness. Continue unaffected work, and seek a decision only when existing criteria cannot resolve the blocker. See [completion](completion-and-acceptance.md).
 
 ## 5. Investigation journal — meaningful chronology
 

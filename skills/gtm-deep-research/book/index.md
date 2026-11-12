@@ -66,3 +66,7 @@ The sections form a Docusaurus-style, Markdown-first **OKF specification book**.
 **Source actually inspected → qualified and contradicted claims → semantic `K` concepts → independent `RT` where major → derived research book → dossier-based completion**, with adaptive budgets and optional learning throughout. Evidence state, qualitative confidence, review, project lifecycle and progress are distinct. A material newly encountered contradiction may reopen only affected work; no monitoring service is implied. Human charter, plan, budget and release gates cannot be bypassed.
 
 **Operational and historical distinction:** This book defines how an authorized GTM research session operates. Build history and package-review decisions are recorded separately in the historical appendices; opening this book never authorizes installation, workspace initialization, expenditure, or substantive research.
+
+## Current workflow amendment
+
+User-directed v2: [one execution agreement](../references/activation-and-approval-gates.md), [strategy/current-state coverage](../references/strategy-and-current-state.md), one whole-company GTM chapter with adaptive deep dives, autonomous internal reviews and delivery ready for user review. See [supersession record](appendices/audit-reconciliations.md); historical increment reports do not certify this revision.

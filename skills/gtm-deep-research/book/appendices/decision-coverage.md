@@ -17,7 +17,7 @@
 | DR-008 | Mandatory discovery dimensions | 01 |
 | DR-009 | Core discovery with approved subject extensions | 01 |
 | DR-010 | Versioned auditable research charter | 01 |
-| DR-011 | Hierarchical progressive plans and approvals | 02 |
+| DR-011 | Full-run agreement and autonomous internal planning | 02 |
 | DR-017 | Invalidated assumptions and selective pausing | 02 |
 | DR-046 | Intent-based activation | 01 |
 | DR-047 | Risk- and complexity-based research depth | 01 |
@@ -71,7 +71,7 @@
 | DR-036 | Versioned selective synthesis maintenance | 10 |
 | DR-037 | Autonomous charter-verified project completion | 13 |
 | DR-050 | Docusaurus-style Markdown-first OKF book | 11 |
-| DR-051 | Adaptive book structure with consequential approval | 11 |
+| DR-051 | Complete company GTM overview and adaptive deep dives | 11 |
 
 ## Part V — Implementation and Quality (3)
 
@@ -79,10 +79,14 @@
 |---|---|---|
 | DR-048 | Static specification/implementation review | 14 |
 | DR-049 | Consolidated specification before small implementation increments | 14 |
-| DR-052 | Hierarchical book review and final approval gates | 14 |
+| DR-052 | Four internal quality checks and final user review | 14 |
 
 **Primary coverage:** 13 + 17 + 11 + 8 + 3 = **52 unique decisions**. `-R` marks the standalone architectural replacement of the corresponding earlier wording; it is not an additional decision. Original decision histories and the standalone amendment must be preserved.
 
 ## Namespaces
 
 The `DR-###` strings above are **skill-design decision labels**, not OKF semantic concept IDs. Future research operational decisions use scoped IDs such as `PRJ-0001:DEC-0001`, and reusable semantic concepts use workspace-wide IDs such as `K-000001`.
+
+## v2 interpretation
+
+The 52 historical labels retain identity, with current workflow semantics governed by the [v2 amendment](audit-reconciliations.md). No new project decision or historical approval is fabricated. Consolidated authority replaces per-phase gates; specification chapter count is not company-book chapter count.

@@ -1,49 +1,24 @@
-# Chapter {{CHAPTER_NUMBER}} — {{CHAPTER_TITLE}}
+# {{CHAPTER_TITLE}}
 
-<!-- AUTHORING TEMPLATE: remove instructions and unused placeholders from the published chapter.
-Use the approved reader and scope. Adapt the structure to the company's story rather than treating every heading below as mandatory.
-Internal journey/evidence maps, source-access metadata and approval mechanics stay outside the main prose. -->
+{{CONTEXT_AND_QUESTION_INHERITED_FROM_THE_BOOK_ARGUMENT}}
+{{NECESSARY_IDENTITIES_RELATIONSHIPS_AND_CONTEXT_NOT_ALREADY_ESTABLISHED}}
 
-[Book contents]({{RELATIVE_BOOK_INDEX}}) · [Part index]({{RELATIVE_PART_INDEX}})
+## {{FIRST_MEANINGFUL_STEP_IN_THE_EXPLANATION}}
 
-{{OPENING_THAT_INTRODUCES_THE_COMPANY_CUSTOMER_PROBLEM_AND_CENTRAL_QUESTION}}
+{{EVIDENCED_INTERACTION_WHO_INITIATES_WHAT_PEOPLE_AND_PRODUCT_DO_AND_HOW_THE_RESULT_IS_USED}}
+{{RELEVANT_PRIOR_CONSTRAINT_TRIGGER_CHOICE_COMMITMENT_STATED_REASON_AND_SUPPORTED_INTERPRETATION}}
 
-## {{STARTING_PROBLEM_AND_PRODUCT}}
+## {{NEXT_SECTION_REQUIRED_TO_ADVANCE_THE_SAME_QUESTION}}
 
-{{EXPLAIN_THE_CUSTOMERS_ALTERNATIVES_AND_ACTUAL_PRODUCT_WORKFLOW_IN_FAMILIAR_WORDS}}
-{{CONNECT_USERS_BUYERS_PAYERS_ACQUISITION_AND_ECONOMICS_WHERE_KNOWN}}
-{{SHORT_SOURCE_LINK_OR_NUMBERED_NOTE}}
+{{CONNECTED_ANALYSIS_OF_EXECUTION_GTM_EFFECTS_TRADEOFFS_AND_RESULTS_OR_UNKNOWNS}}
+{{HOW_SUBSEQUENT_EVIDENCE_AND_NEXT_MOVES_SUPPORT_OR_CHALLENGE_THE_EXPLANATION}}
+{{COMPARISON_TABLE_ONLY_IF_IT_CLARIFIES_ALREADY_INTRODUCED_IDEAS}}
+{{CURRENT_OR_EMERGING_IMPLICATIONS_AND_CONDITIONAL_LESSONS_WHERE_RELEVANT}}
 
-## {{A_MATERIAL_CHANGE_IN_THE_BUSINESS}}
-
-{{CONNECT_PRIOR_SITUATION_PRESSURE_OR_OPPORTUNITY_COMPANY_RESPONSE_AND_OUTCOME}}
-{{DISTINGUISH_STATED_REASONS_FROM_SUPPORTED_AUTHOR_INTERPRETATION}}
-{{EXPLAIN_THE_INSIGHT_THAT_FOLLOWS_FROM_THIS_CHANGE_WITHOUT_GENERIC_ADVICE}}
-{{BRIEF_MATERIAL_UNCERTAINTY_WHERE_NEEDED_AND_LINK_TO_DETAILED_NOTE}}
-
-<!-- Add subsequent sections only where they advance the chapter's explanation.
-Integrate later evidence into the relevant historical stage. Do not append source-by-source updates. -->
-
-## {{WHAT_THIS_STAGE_TEACHES_IF_USEFUL}}
-
-{{A_FEW_DEVELOPED_CASE_SPECIFIC_LESSONS_WITH_REASONS_CONDITIONS_AND_LIMITS}}
-{{NO_PERSONALIZED_BUSINESS_COMPARISON_UNLESS_SEPARATELY_REQUESTED}}
+{{WHAT_IS_NOW_UNDERSTOOD_AND_THE_QUESTION_THAT_LEADS_TO_THE_NEXT_CHAPTER}}
 
 ## Sources and notes
 
-<!-- Prefer public original links and/or published note pages. Preserve the canonical
-SRC/CLM/K/RT mapping here or in workspace records. Do not link the website to excluded files.
-Each material uncertainty must still be apparent in the discussion it affects. -->
+{{READABLE_SOURCE_LINKS_WITH_LINEAGE_AND_CONSEQUENTIAL_UNCERTAINTY}}
 
-### Note 1
-
-{{PUBLIC_SOURCE_LINKS_CANONICAL_RECORD_MAPPING_AND_RELEVANT_SOURCE_LIMITATIONS}}
-
-### Note 2
-
-{{SUPPORTING_AND_CONTRADICTING_ACCOUNTS_WITH_THE_BOUNDED_INTERPRETATION}}
-
-<!-- Review before delivery:
-Can the intended reader explain the business and each material transition without reading these notes?
-Can the author trace material statements to evidence without overstating reasons or outcomes?
-Keep lifecycle/revision details in workspace records; use a short reader-facing draft notice where useful. -->
+<!-- Apply ../references/book-authoring-and-reader-review.md and the conditional acquisition guidance in ../references/strategy-and-current-state.md when relevant. Demonstrate the answer to the chapter question from actual text; reconcile material facts with raw evidence. An inventory plus generic benefits/caveats is insufficient. Check alternatives and relocate detours. Scaffolding, not fixed headings or a paragraph formula. One canonical overview holds complete GTM integration. Avoid mandatory opening verdicts, repeated caveats and invented causal bridges. Review coherence within the existing four reviews. No personalization without separate request. -->

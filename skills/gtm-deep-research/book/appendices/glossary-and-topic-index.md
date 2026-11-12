@@ -52,3 +52,7 @@ This index supports quick navigation through the fourteen-chapter specification.
 - [First-time workspace initialization checklist](../../references/workspace-initialization.md)
 - [Synthetic source → claim → red-team → concept → book chain](../../references/examples/synthetic-evidence-chain/index.md)
 - [Workspace conventions template](../../templates/workspace-conventions.md) · [Shared knowledge index template](../../templates/knowledge-index.md)
+
+## v2 workflow terms
+
+**Consolidated execution agreement:** One actual approval covering charter, full plan and internal contracts, workspace, limits, adaptive chapters, reviews and explicit goal start. **Whole-company GTM chapter:** One canonical integrated commercial cycle, with deeper strategic analyses chosen from findings. **Review-ready:** Internal coverage/strategy/evidence/editorial checks completed; deliver and stop autonomous research, with user acceptance still pending. Goal execution is orchestration, not a Goal Memory/evidence-store dependency. [Strategy coverage](../../references/strategy-and-current-state.md).

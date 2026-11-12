@@ -2,7 +2,7 @@
 
 [Book home](../book/index.md) · [Chapter 09](../book/part-03-okf-architecture/09-shared-knowledge-and-dependencies.md) · [Dependency register](../templates/dependency-impact-register.md) · [Reopening record](../templates/reopening-record.md) · [Revisions](synthesis-revisions.md)
 
-**Authority:** DR-027, DR-038, DR-039, DR-045. Reuse authoritative evidence **by reference**, with contextual revalidation. A known material upstream change triggers downstream *reassessment*, not automatic proof that all dependents are false. Reopening a completed project changes lifecycle status; it **never** grants new scope, spending or plan execution authority.
+**Authority:** DR-027, DR-038, DR-039, DR-045. Reuse authoritative evidence **by reference**, with contextual revalidation. A known material upstream change triggers downstream *reassessment*, not automatic proof that all dependents are false. Reopening a completed project changes lifecycle status; it never grants new scope or spending; existing consolidated authorization can cover further in-scope investigation.
 
 ## 1. Record only consequential dependencies
 
@@ -36,7 +36,7 @@ Minor evidence changes that do not undermine the conclusion or completion criter
 
 Codex may **autonomously mark** a completed project `reopened — assessment pending` when encountered credible evidence materially undermines a major project conclusion, critical dependency or approved charter completion basis. Persist the trigger and preserved previous [project completion dossier](../templates/project-completion-dossier.md). Identify affected scope and keep unaffected research closed.
 
-Reopening does not mean research automatically resumes. New work requires the existing charter/detailed-plan/contract approvals and applicable [budget checks](research-budget-management.md). If new scope or spending is needed, prepare a proposal and wait. A new research plan cannot retroactively be treated as approved just because the project was reopened. The old completion status remains in history; the latest checkpoint may show `reopened/pending authorization` after consistent durable writes.
+Reopening does not create new authority. During an active run, resume covered in-scope investigation/review within enforceable limits. After review-ready delivery, preserve encountered trigger evidence, record affected findings and dependencies as assessment pending, and report the impact without starting new source searches, adjudication or substantive book revision. Resume that work only on a user request to review/revise the affected work or explicit authorization extending execution beyond delivery. Such a request uses the existing scope and limits; it needs no repeated intake or phase approvals. Work on another project is not a request to resume this one. Seek a decision for any actual objective/subject expansion, hard-limit change or uncovered external action.
 
 Retest applicable `RT` major-conclusion challenges and original completion conditions before closing reopened scope. Subsequent closure yields a new versioned dossier, not an overwritten original.
 
@@ -51,3 +51,7 @@ Do not create a permanent background monitoring process. Only react when evidenc
 Persist trigger evidence and original versions → dependency-impact/reopening records → changed review or claim states when justified → affected indexes/book revision entries/journal → validate links and dependent flags → checkpoint last. On interruption, preserve the previous completion dossier and pending flags; do not silently restore `complete` or clear flagged dependencies without reassessment. Recover via [consistency procedure](recovery-and-consistency.md).
 
 **Exit condition:** All *known affected* dependencies receive an explicit, supportable disposition; requirements to authorize new work are identified; old completion and revision histories remain; any incomplete dependency coverage is disclosed rather than hidden.
+
+## Consolidated-approval execution boundary
+
+A changed answer or chapter outline within the approved objective is not a new objective. Covered investigation/review proceeds autonomously during the active run or requested revision; the post-delivery boundary in section 4 still applies. Preserve prior dossiers and limits. No automatic migration or background monitoring.

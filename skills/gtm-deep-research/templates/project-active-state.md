@@ -1,33 +1,23 @@
 # Active Research State — {{PRJ_ID}}
 
-> **Template only**; this is one authoritative project checkpoint, not a duplicate knowledge store.
+One authoritative checkpoint; update after substantive records, navigation/journal and validation.
 
 | Field | Value |
 |---|---|
-| Project | `{{PRJ_ID}}` |
-| Charter version | `not yet approved` |
-| Current phase / subphase | `none` |
-| Approved contract | `none` |
-| Execution status | `not started` |
-| Pending human approval | `charter / initial plan as applicable` |
-| Budget record | `none` |
-| Draft research book and version | `none` |
-| Material synthesis revision pending | `none` |
-| Completion dossier and criterion status | `none / not evaluated` |
-| Reopening status and prior dossier | `none / not reopened` |
-| Downstream dependency impact pending | `none` |
-| Optional learning checkpoint | `none` |
-| Blockers / dependencies | `none identified` |
-| Recovery marker | `none` |
-| Next **authorized** action | `obtain explicit required approvals` |
+| Consolidated agreement / actual decision | {{VERSION_DEC_AND_COVERED_PLAN}} |
+| Current questions / internal stage contract | {{QUESTIONS_RC_AND_COVERAGE}} |
+| Goal execution | {{EXPLICIT_AUTHORIZATION_AND_STATUS_OR_UNAVAILABLE}} |
+| Research state | {{INTAKE_INVESTIGATING_REVIEWING_READY_FOR_USER_REVIEW_QUALIFIED_OR_TRUE_BLOCKER}} |
+| User acceptance | {{PENDING_OR_ACTUAL_RESPONSE_REFERENCE}} |
+| Last delivery / authority to resume | {{DELIVERED_EDITION_AND_DATE_OR_NOT_YET_DELIVERED_AND_ACTUAL_REVISION_REQUEST_OR_CONTINUING_AUTHORIZATION}} |
+| Whole-company GTM chapter / deep dives | {{CANONICAL_PATH_AND_CURRENT_STRUCTURE}} |
+| Current/emerging portfolio coverage | {{CUTOFF_LAST_RECONCILIATION_AND_OPEN_ITEMS}} |
+| Internal coverage/strategy/evidence/editorial reviews | {{ACTUAL_RECORDS_AND_RESULTS}} |
+| Sources / claims / meaningful journal | {{COUNTS_REFERENCES}} |
+| Limits / actual consumption | {{LEDGER_MEASUREMENT_AND_REAL_CEILINGS}} |
+| Important unknowns / true blockers | {{DISPOSITIONS_AND_IMPACTS}} |
+| Pending essential human decision | {{NONE_OR_EXACT_ACTION_REQUIRING_AUTHORITY}} |
+| Revision / dependencies / recovery | {{ACTUAL_MARKERS_OR_NONE}} |
+| Next authorized action | {{IN_SCOPE_NEXT_STEP_OR_DELIVER_AND_STOP_FOR_USER_REVIEW}} |
 
-## Open questions and references
-
-Add pointers to durable evidence and journal records rather than copying their full content here. Never advance this checkpoint ahead of substantive, validated writes.
-
-**Operational rule:** Refer to actual `PRJ:RT` records, budget-ledger version and measurement status in pending reviews/budget fields. A `passed` review does not set project completion; unresolved review and hard-budget blockers prevent dependent advancement. The active checkpoint advances only after review, consumption and index/journal writes validate.
-
-
-**Operational rule:** Reference the actual draft book index, its version/revision ledger, pending `RT`-dependent corrections and optional nonblocking learning notes when they exist. These pointers are **not** additional authoritative evidence or approvals. A draft chapter does not imply final project completion; advance the checkpoint only after substantive source/claim/concept/book changes, affected navigation/links and revision history are durably validated.
-
-**Operational rule:** Reference actual [subphase](subphase-completion-dossier.md) and [project completion](project-completion-dossier.md) dossiers with criterion-by-criterion outcomes. If reopened, point to the prior dossier and new [reopening record](reopening-record.md); retain unresolved [dependency impact](dependency-impact-register.md) flags. An actual `complete` or `reopened` checkpoint can be advanced only after the substantive dossiers/review/impact state and links have been validated. Reopening is not spending or plan authorization.
+Do not confuse qualified evidence, RT completion, internal readiness, goal completion and user acceptance. Preserve prior dossiers on selective reopening. After delivery, an assessment-pending flag alone does not authorize research; follow the [reopening boundary](../references/dependency-impact-and-reopening.md#4-completed-project-reopening). Existing scope and limits remain binding. No shadow memory store.

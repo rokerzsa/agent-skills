@@ -1,43 +1,36 @@
-# Final static specification and package audit
+# Skill consistency and behavioral validation
 
-[Book home](../book/index.md) · [Chapter 14](../book/part-05-implementation/14-skill-implementation-and-review.md) · [Decision coverage](../book/appendices/decision-coverage.md) · [Reconciliations](../book/appendices/audit-reconciliations.md)
+[Specification](../book/index.md) · [Current amendment](../book/appendices/audit-reconciliations.md)
 
-**Scope:** Static inspection of packaged Markdown skill instructions, source links, templates, normative book chapters and update consistency. **Not** a live Codex execution test, company-research validation, Docusaurus build, paid-source audit, actual initialized workspace test or release/install authorization. DR-048 requires this distinction.
+## Static checks
 
-## 1. Artifacts to check
+Validate frontmatter/name/description and all changed references. Inspect live entrypoint, procedures, templates and specification for contradictory separate routine approvals, frozen chapter structures, blanket unknown blockers, goal-memory dependence and false acceptance states. Classify historical increment/review artifacts rather than rewriting them as new evidence. Retain namespaces, source-access honesty, evidence/review separation, actual hard ceilings and recovery/checkpoint-last safeguards.
 
-- Root `SKILL.md` frontmatter: valid `name` and descriptive GTM activation text; current capability boundary accurately reflects the complete specification without claiming tested runtime behavior.
-- Full five-part **14-chapter** book and part/home indexes with real valid relative links, reader order and chapter navigation.
-- [Decision index](../book/appendices/decision-coverage.md) has one primary mapping each for DR-001 through DR-052; DR-040/041/042/044 are marked with standalone `-R` supersession but count once each.
-- [R-01–R-08](../book/appendices/audit-reconciliations.md) and approved no-Goal-Memory amendment preserved; historic Increment 1–5 review artifacts preserved without retroactive falsification.
-- Operational procedures for charter/plan, contract/investigation, source/claim/provenance, gap/journal, independent `RT`, budgets, synthesis/lessons, book/revisions, learning, completion, dependency/reopening and recovery.
-- Appropriate templates for every newly implemented completion, dependency and reopening record; template-only placeholders must not be presented as researched facts or approvals.
+## Behavioral checks
 
-## 2. Behavioral contradiction review
+Use bounded realistic requests and raw artifacts to evaluate: context-aware upfront intake; one informed approval; complete company GTM overview with adaptive deep dives; discovering and analyzing material current brands/buyers; changes in interpretation/outline within scope; investigated unknown versus unperformed work; actual hard-cap/paid/outreach boundaries; planned versus shipped future direction; stop at review-ready delivery with acceptance pending. Check strategic choices, alternatives, trade-offs and GTM implications, not merely named product presence. For writing revisions, inspect raw introduction, overview, pivot and conclusion text in reading order: context and purpose must precede judgment, chapters must advance a shared inquiry, and section transitions must not invent causality. Table-of-contents and link validity do not establish coherence.
 
-Check that (a) an approved **detailed plan** and attached contract precede substantive investigation; (b) unrecoverable workspace blocks stateful writes; (c) `DR`/`K`/scoped IDs are distinct and counters never reused; (d) source discovered ≠ inspected ≠ independently corroborated; (e) evidence/confidence/review states remain separate; (f) major/aggregate conclusions receive an independently researched `RT` pass; (g) critical blockers and consequential unresolved disputes cannot be bypassed; (h) hard budget ceilings are enforced with measurement caveats; (i) book prose derives from OKF evidence and has navigable indexes; (j) completion is objective, autonomous after authorization and versioned dossier; (k) reopening is impact-based, old dossiers preserved, and **does not** grant new budget or research scope; (l) recovery has durable write order/checkpoint last and no hidden shadow store.
+A historical-only scope must respect its cutoff. No fixed chapter/source quotas, company-specific generic rules, invented independent reviewer or automatic project migration. An independent model pass can add confidence when available and authorized; give it the skill/request/raw artifacts rather than a desired answer. Use isolated outputs and do not contact outsiders or mutate live research projects during evaluation.
 
-Historical increment review documents may truthfully describe old capability limits. They should **not** be rewritten to imply earlier implementation supported later features. Current `SKILL.md`, live procedures, current part indexes and current checklist must accurately describe all available capabilities and their permanent authorization boundaries.
+## Usefulness evaluation cases
 
-## 3. Review evidence and labels
+For changes to investigation, synthesis or review, select bounded raw evidence and draft excerpts that exercise the affected behavior. State the reader question and expected disposition before evaluation. Compare observed judgments/repairs with these expectations and record the actual outputs and limits. Use both weak and useful cases; do not validate against favorable summaries alone. These are evaluation examples, not quotas for every study or proof of autonomous end-to-end reliability.
 
-For each check, report method, file(s) inspected, result (`pass`, `fail`, `not verifiable statically`), and repair action if relevant. Count existing Markdown files, relative link references checked, broken targets, primary decision mappings, new/modified/unchanged/removed files versus Increment 5, and package integrity. Include a hash for the final archive if computed. If a static check only verifies word/marker presence, label it that way; do not call it a semantic proof of model behavior.
+| Input | Expected judgment or repair |
+|---|---|
+| Cited capability inventory plus generic benefits and caveats; reader asks how strategy developed | Fail depth; identify and reconstruct the missing decision explanation |
+| Inspected transaction table discloses consideration but extraction omits it | Fail material-fact reconciliation; repair records before derived synthesis |
+| Record preserves a material deal commitment but transaction-history chapter drops it | Repair synthesis unless an explicit editorial reason preserves the reader's answer elsewhere |
+| M&A allocation labeled one deal's price; forecast labeled achieved sales | Fail definition/time fidelity; separate the amounts and states |
+| Detailed chronology and amounts without strategic significance | Fail depth; explain the choice/mechanism rather than adding more facts |
+| Purchase attributed to lowering customer acquisition cost with no evidentiary basis | Reject invented intent/causality; investigate, qualify a supported hypothesis or remove |
+| Conditional rationale with evidence, credible alternatives and discriminating signals | May pass without internal deliberation documents; do not upgrade to proven motive/results |
+| Price undisclosed after reasonable investigation; decision otherwise usefully explained | May pass qualified; no fabricated estimate or endless searching |
+| Imperfect founder payment recollection presented as verified first-customer price | Fail calibration; preserve attribution, uncertainty and milestone distinctions |
+| Concrete operating constraint, choice and execution explained; revenue impact unknown | May pass the episode with bounded claims, not certify the whole book |
+| Every launch treated as a pivot or mutually exclusive period | Repair periodization; distinguish material changes and overlapping offers |
+| Purported finding remains equally applicable after substituting another company name | Ground it in case evidence or present it as general context |
 
-## 4. Release boundary
+Use existing review records or one focused skill-evaluation report. Disclose same-investigator judgments; neither a predetermined expected result nor a static keyword check is an observed behavioral pass. If a case fails, revise the instructions and repeat affected evaluation, preserving failures and reasons.
 
-Passing this audit makes a package **ready for final human review**, not automatically released, installed or runtime validated. Present the entire ZIP, key procedures and the review report; request separate human release approval. No continuation into deployment, user workspace initialization or live research without appropriate authorization. Any consequential defect discovered in final review must be corrected and rechecked before release.
-
-## 5. Release-hardening regression checks
-
-The historical Increment 6 static audit found structural consistency but missed obsolete instructions in nonhistorical documents. Before any subsequent release-candidate review, perform a **full current-normative-file scan**, not a check of `SKILL.md` alone:
-
-1. Exclude historical `book/appendices/increment-*-review.md` snapshots from current capability assertions, but verify they remain unchanged.
-2. Scan **every current chapter, part index, procedure and template** for obsolete increment-specific stop rules or claims that completion, reopening, budgets or independent reviews are unavailable. A lower-level procedure may say it cannot *alone* close a project; it must point to the separate completion audit instead of forbidding completion globally.
-3. Verify `SKILL.md` is release-state-neutral: do not embed an ephemeral “unreleased review candidate” limitation that would survive into an installed skill. Keep actual release authorization in review records and permanent approval requirements in the entry point.
-4. Check [source security handling](source-and-claim-evidence.md) and the entry point explicitly classify external content as untrusted evidence, reject source-origin commands, and prohibit secret disclosure, code execution or unauthorized spending based on retrieved instructions.
-5. Validate the [first-time initialization checklist](workspace-initialization.md) and its [workspace conventions](../templates/workspace-conventions.md) and [knowledge index](../templates/knowledge-index.md) scaffolds. Do not treat the existence of templates as initialization.
-6. Resolve both relative file targets and anchor fragments in the [fictional evidence-link example](examples/synthetic-evidence-chain/index.md), including the post-split source-reference path. Never treat fixture data as real historical evidence.
-7. Verify [glossary/topic navigation](../book/appendices/glossary-and-topic-index.md), all fourteen chapters, all 52 primary mappings, and safeguards R-01–R-08.
-8. Validate the final archive's members against the staged source files and report modified/new/unchanged files and preserved historical review records.
-
-If a check is based only on pattern presence or a finite contradiction blacklist, label it accordingly; it is **not** a formal proof of semantic or runtime correctness. Do not release, install, or initialize a user workspace without the appropriate explicit approvals.
+Record which checks were actually performed and their limits. Frontmatter/link checks alone do not demonstrate runtime research quality. Repair demonstrated findings and repeat affected checks. Packaging/ZIP validation, installation or publication are performed only when those actions are requested; a local authorized edit does not need a release ceremony.

@@ -35,7 +35,7 @@ When the challenge finds a consequential issue, conduct a **bounded, evidence-ba
 - Investigate missing, potentially decisive sources or alternative causal mechanisms *only under the approved contract, limits and budget ledger*.
 - Revise the claim's evidentiary confidence/state **only when evidence warrants**; keep procedural review state independent. A `passed` review does not mechanically upgrade confidence.
 - If a material dispute remains, document opposing interpretations and why evidence cannot adjudicate. Flag affected dependencies and selectively pause work relying on the conclusion if needed.
-- If adjudication would change charter scope, plan, or exceed a resource ceiling, propose the consequential amendment and request human approval **before** dependent investigation.
+- If adjudication reveals a genuinely different objective/subject, exceeds a hard limit or needs an uncovered external action, request the specific authority before that action. A changed interpretation or outline within scope proceeds autonomously.
 
 ## 4. Verdicts and permitted transitions
 
@@ -53,7 +53,7 @@ Do **not** use `refuted` as a review state: it is an **evidence state**. If evid
 
 ## 5. Critical escalation and completion boundary
 
-Escalate consequential unresolved disputes and missing decisive evidence with: question, original and counterpositions, independent evidence reviewed, gap/assumption effects, bounded avenues tried, costs/limits, proposed next authorization and impacted work. Do not downgrade criticality to close; no human approval creates fact certainty.
+Document consequential unresolved disputes with exact question, rival positions, evidence reviewed, impact, attempted avenues and narrow supported conclusion. Apply the agreement’s qualified-disposition policy without changing factual confidence. Ask the user only when the existing criteria cannot resolve a true blocker.
 
 Even after a `passed` or `qualified` review, **this red-team procedure does not itself close a subphase/project or certify a final book**. The separate [completion procedure](completion-and-acceptance.md) verifies current contract/charter conditions, gaps, mandatory reviews and deliverables. New material counterevidence may trigger [selective reopening](dependency-impact-and-reopening.md) only after impact assessment and with previous dossiers preserved. Routine authorized investigation may continue while unrelated dependencies remain unblocked.
 
@@ -64,3 +64,9 @@ Issue `RT` ID durably, e.g. `PRJ-0001:RT-0001`, through the existing project sco
 Record new independent sources in [source register](../templates/source-register.md), changes in [claim register](../templates/claim-register.md), and meaningful work in the [journal](../templates/investigation-journal.md). Ensure source access and information origin are real, review records can be found via stable ID, references resolve, and the active checkpoint advances only after validation. Failure/recovery follows [standalone OKF conventions](standalone-okf-conventions.md).
 
 **Exit checklist:** target frozen; classification justified; genuinely separate counter-search documented; alternative models/falsifiers tested; counterevidence assessed; bounded adjudication and budget checks recorded; review disposition justified; target claim evidence/confidence/review independently updated; affected dependencies/escalation preserved; no false subphase closure.
+
+## Strategy coverage and execution authority
+
+Challenge whether material pivots/current products or buyer types were omitted, whether a product mention substitutes for strategic analysis, and whether the whole-company GTM model explains conversion, monetization and retention/expansion rather than only acquisition. Test choices, alternatives and trade-offs as well as outcome claims. Emerging direction must distinguish available change, announced plan and conditional interpretation.
+
+A consolidated approval covers in-scope adversarial searches and resulting outline/interpretation changes; no routine phase or chapter reapproval. Significant uncertainty retains its importance and may receive a qualified execution disposition under agreed criteria. Do not turn an unknown into a fact or use that policy to skip a required pass. Deliver only after all four internal checks, then stop for user review.
