@@ -10,18 +10,20 @@ Reusable skills for AI coding agents.
 
 The human sets intent, priorities and the boundaries for decisions and approvals. The agent investigates, challenges assumptions, recommends a path and carries out authorized work. Together they discuss and agree on the next useful slice, plan it, act, review and record what happened. Explicit instructions can change the default review rhythm or delegate decisions for unattended work.
 
-Manual mode is the default and offers phases for your review. In Auto mode, explicitly authorized for a goal and scope, an orchestrator coordinates a worker and a separate reviewer that applies your confirmed working preferences. You can switch modes at any time by explicit instruction or approval. The [operating guide](skills/goal-memory/references/HOW-TO-USE.md#work-modes) explains authority, switching and review fallback.
+Manual mode is the default and offers phases for your review. In Auto mode, explicitly authorized for a goal and scope, the main agent coordinates inspection, focused questions and answers, planning, implementation and independent review. You can switch modes at any time by explicit instruction or approval. The [operating guide](skills/goal-memory/references/HOW-TO-USE.md#work-modes) explains authority, switching and review fallback.
 
 Subagent creation, interruption and unattended continuation depend on the agent harness and its permissions.
 
 ```mermaid
 flowchart TD
-    H["Human: intent, priorities, authority"] --> D{"Goal state"}
-    D -->|Next slice| W["Discuss and plan a slice"]
+    H["Human: intent, priorities, authority"] --> D{"Coordinator checks goal state"}
+    D -->|Next slice| Q["Inspect, ask and answer focused questions"]
+    Q --> W["Plan a slice"]
     W --> P["Review plan: agreed Manual checkpoints or Auto reviewer"]
-    P -->|Questions or changes| W
+    P -->|Questions or changes| Q
     P -->|Ready| I["Implement and verify"]
-    I --> R["Review result: agreed Manual checkpoints or Auto reviewer"]
+    I --> A["Present diff and checks, then obtain review approval when required"]
+    A --> R["Review result: agreed Manual checkpoints or Auto reviewer"]
     R -->|Corrections| I
     R -->|Accepted| N["Record decision and evidence"]
     N --> D
@@ -41,7 +43,9 @@ For substantial goals, private memory connects knowledge, decisions, goals, phas
 
 ## Install
 
-Copy the entire `skills/goal-memory` directory into your agent's skills directory. For Codex, use `~/.codex/skills/goal-memory/` for a personal installation, or the project's `.agents/skills/goal-memory/` for a project installation. Keep `SKILL.md`, `references/`, and `templates/` together.
+Copy the entire `skills/goal-memory` directory into your agent's skills directory. For Codex, use `~/.codex/skills/goal-memory/` for a personal installation, or the project's `.agents/skills/goal-memory/` for a project installation.
+
+The top-level [agents/](agents/) contains the five Goal Memory profiles. Copy them into the target project's `.codex/agents/` or your personal `~/.codex/agents/` for Codex to discover them. Then invoke `$goal-memory` as usual. See the [role and model guide](skills/goal-memory/references/CODEX-AGENTS.md) for dispatch and handoffs.
 
 ## Use
 
